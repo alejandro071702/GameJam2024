@@ -20,7 +20,7 @@ $ renpy.music.register_channel(channel1, loop=True)
 $ renpy.music.register_channel(channel2, loop=True)
 init:
     image micro-bg:
-        "bg_micro.jpg"
+        "bg_mono_micro.jpg"
     image micro-bg-2:
         "bg_mono_micro-2.jpg"
     image salon:
@@ -36,8 +36,11 @@ label char:
     scene micro-bg
     show iot feliz
     iot "Hola"
+    return
 
 label start:
+    jump char
+    return
     scene black
     python:
         name = renpy.input("What's your name?")
