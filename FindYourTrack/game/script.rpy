@@ -20,13 +20,22 @@ $ renpy.music.register_channel(channel1, loop=True)
 $ renpy.music.register_channel(channel2, loop=True)
 init:
     image micro-bg:
-        "bg_mono_micro.jpg"
+        "bg_micro.jpg"
     image micro-bg-2:
         "bg_mono_micro-2.jpg"
     image salon:
         "bg_mono_salon.jpg"
+    image iot feliz = Composite(
+        (600, 600),
+        (0, 0), "mona1.png",
+        (250, 265), "face feliz.png"
+    )
 
 
+label char:
+    scene micro-bg
+    show iot feliz
+    iot "Hola"
 
 label start:
     scene black
