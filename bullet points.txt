@@ -20,22 +20,7 @@ Likes
 Dislikes
 	Noise
 	Frontend
-
-Sistemas Geoespaciales: Girl2 (Interfaces Gráficas con Aplicaciones) Morra castrosa
-Likes
-	Homework
-	Studying
-Dislikes:
-
-Desarrollo Web y Multiplataforma: Girl3 (Interfaces Gráficas con Aplicaciones) genki (Sunny pero vieja)
-Outgoing
-Likes
-	Drawing
-	Design
-	Friendly (Rare)
-Dislikes
-	Rude people
-
+	
 Internet de las cosas: Io-Tan (Microcontroladores)
 Microsoft if it was a person.
 Jealous
@@ -47,18 +32,37 @@ Likes
 Dislikes	
 	being left out
 
+Sistemas Geoespaciales: Girl2 (Interfaces Gráficas con Aplicaciones) Morra castrosa
+Likes
+	Homework
+	Studying
+Dislikes
+	Everything
+
+Desarrollo Web y Multiplataforma: Girl3 (Interfaces Gráficas con Aplicaciones) genki (Sunny pero vieja)
+Outgoing
+Likes
+	Drawing
+	Design
+	Friendly
+Dislikes
+	Rude people
+
+
+
 
 
 
 Clases:
 Redes
 Sistemas Operativos
-Interfaces
-Estadística
 Microcontroladores
+Estadística
+Interfaces
 
-
-
+Player has to make a project with each girl by the end of the semester. By choosing a specific project to work on, the player neglects the others and therefore also neglects the rest of the girls.
+Player will reach a lose state if he finds himself not contributing at all to a specific project. 
+A lose state is also reached if he puts the same effort through all of them, since he still won't be able to choose a track.
 
 Escenarios:
 Salón Microcontroladores

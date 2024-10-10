@@ -1,5 +1,7 @@
 Título
 
+
+[[Day 1:]]
 [Fondo: plano negro]
 	Player:
 		Llevo cinco semestres estudiando una Ingeniería en Computación y no tengo ni la menor idea de lo que estoy haciendo. 
@@ -18,7 +20,7 @@ Título
 [Transición (nomás un slide de un cuadro negro para indicar paso del tiempo, el fondo se queda igual)]
 	Player:
 		(Las clases se sienten más pesadas cuando intentas prestar atención. Ni siquiera sé si me quedó todo claro).
-[Show girl1: cloudGirl]
+[Show cloud	]
 	Player: 
 		(Esta es la chica que se sienta al lado mío, cloudGirl. Estábamos juntos en un equipo hace unos semestres, pero nunca la vi hablar; sólo envió su parte del trabajo al final, y fue lo mejor de todo el proyecto.)
 		(Nunca le había hablado… Tal vez pueda ayudarme a pasar).
@@ -36,18 +38,40 @@ Título
 	[...]
 
 [Fondo: pasillo]
-	Player: Al menos estoy seguro de que puedo pedirle ayuda...
-	Hora de mi siguiente clase
+	Player: Su explicación se sintió más pesada que la de la profesora...
+	Al menos sé que puedo pedirle ayuda después.
 	
-	
-	Profesor:
-
-[Show girl2: geoGirl & girl3: webGirl]
+	Hora de mi siguiente clase.
+[Fondo: salón de cómputo B] [Clase: Microcontroladores]
+[show iotGirl]
+	iotGirl: Oye, vas en mi equipo para la práctica. Ponte a programar esto.
+	Player: (iotGirl. Suele pedirme que haga cosas para las prácticas, y yo sólo obedezco sin importar qué me pida.)
+		(Ambos sabemos que hubiera reprobado sin oportunidad de recuperarme desde el principio si no fuera porque me trae de acá para allá para las prácticas y añade mi nombre en los reportes).
+		(Gracias a ella es que esta es la única materia que no voy reprobando.)
+[Transición al mismo bg]
+	iotGirl: Gracias, limpia la mesa antes de irte.
+[Hide iotGirl]
+	Player: ...
+[Fondo: Pasillo]
+	[show webGirl]
+	webGirl: ¡Hola, {name}!
+	Player: (webGirl. Es así de amigable con todos los que se encuentra. Al menos eso es lo que he visto)
+	webGirl: ¿Hiciste el ejercicio de ayer? Yo no estoy seguro de qué tan bien me quedó. ¿Puedo compararlo con el tuyo?
+	Player: No, olvidé terminarlo.
+	webGirl: Cómo crees. ¿Qué vas a hacer, entonces?
+	Player: No sé, copiarlo de algún lado.
+	[show geoGirl]
 	geoGirl: 
 
 
-
-
-[Fondo: salón de cómputo B] [Clase: Microcontroladores]
 Profesor (voice off): Así tiene que quedar su proyecto. Es en equipos, y para no complicarnos las cosas, trabajen con la persona que sigue de ustedes en la lista.
 Player: (Después de mí… Supongo que me toca con ella)
+
+
+
+
+
+
+
+Final day
+	
