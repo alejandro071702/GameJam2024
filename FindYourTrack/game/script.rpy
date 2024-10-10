@@ -1,4 +1,4 @@
-﻿# Coloca el código de tu juego en este archivo.
+# Coloca el código de tu juego en este archivo.
 
 # Characters
 define iot = Character('Chipi-Chan', color = "#BEA665")
@@ -13,25 +13,24 @@ define narrator = Character(kind = nvl)
 define p = Character('Vato123')
 
 # El juego comienza aquí.
-# define circleirisin = ImageDissolve("imagedissolve circleiris.png", 1.0, 8 , reverse=True)
-# define circleirisout = ImageDissolve("imagedissolve circleiris.png", 1.0, 8)
 
 $ renpy.music.register_channel(channel1, loop=True)
 $ renpy.music.register_channel(channel2, loop=True)
 init:
-    image micro-bg:
-        "bg micro.png"
-        zoom 1.5
-    image micro-bg-2:
-        "bg micro-2.png"
-        zoom 1.5
-    image salon:
-        "bg salon.png"
-        zoom 1.5
-
-
+    image iot feliz = Composite(
+        (320, 320),
+        (0, 0), "mona1.png",
+        (119, 119), "face feliz.png")
+    
+    define circirisout = ImageDissolve("circleiris.png", 1.0, time_warp=_warper.easeout)
+    define circirisin = ImageDissolve("circleiris.png", 1.0, reverse=True, time_warp=_warper.easein)
 
 label start:
+    jump charPlayground
+    return
+    jump inicio
+
+label inicio:
     scene black
     python:
         name = renpy.input("What's your name?")
@@ -61,24 +60,34 @@ label start:
     return
 
 label example:
-    scene micro-bg
+    scene bg micro
     show geo angry
     geo "Baka mou shiranai"
 
     scene black with Dissolve(0.5)
     pause(0.5)
 
-    scene micro-bg-2
-    show img pe:
-        xalign 0.0
-        yalign 1.0
-
-    p ""
-    show img pe:
-        xpos 1.0
-        ypos 1.0
+    scene bg micro
+    show iot happy 
+    show img pe behind iot
+    p "..."
     narrator "Narration"
     narrator "A long time ago..."
     with Dissolve(0.5)
 
     return
+
+label charPlayground:
+    scene bg micro
+    show iot feliz
+    iot "Hola"
+    return
+
+
+label transitionPlayground:
+    scene micro-bg
+    pause(2.0)
+    scene black with circirisin
+    pause(2.0)
+    scene salon with circirisout
+    pause(2.0)
