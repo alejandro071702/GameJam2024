@@ -34,6 +34,18 @@ init:
         (250, 265), "face feliz.png"
     )
 
+    image web feliz = Composite(
+        (600, 600),
+        (0, 0), "mona2.png",
+        (250, 265), "face feliz.png"
+    )
+
+    image geo feliz = Composite(
+        (600, 600),
+        (0, 0), "mona3.png",
+        (250, 265), "face feliz.png"
+    )
+
 
 label char:
     scene micro-bg
@@ -102,8 +114,8 @@ label c2:
     p "Hora de mi siguiente clase"
     "Profesor" ``
 
-    show geo feliz at slightleft
-    show web feliz at slightleft
+    show geo feliz at left
+    show web feliz at right
 
     geo ""
 
