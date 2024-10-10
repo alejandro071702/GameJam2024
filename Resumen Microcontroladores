@@ -1,0 +1,36 @@
+Sistemas geoespaciales (Interfaces Graficas con Aplicaciones)
+
+Microcontroladores
+1. Arquitectura de un microcontrolador
+   - Diferencias: Un microcontrolador es un sistema completo con procesador, memoria y periféricos integrados, mientras que un microprocesador solo tiene la CPU y depende de dispositivos externos para funciones adicionales. Los dispositivos reconfigurables, como las FPGAs, permiten modificar su estructura interna para realizar diferentes tareas.
+   - Organización: El microcontrolador incluye CPU, memoria (RAM y ROM), puertos de entrada/salida (I/O), temporizadores, ADC, y otros periféricos.
+   - Componentes externos: Generalmente, interactúa con sensores, actuadores, memorias externas, interfaces de comunicación y otros dispositivos.
+
+2. Memoria
+   - Tipos: Principalmente incluyen memoria de programa (ROM/Flash) y memoria de datos (RAM). Algunos tienen EEPROM para almacenamiento no volátil.
+   - Características: ROM almacena el programa, RAM guarda datos temporales durante la ejecución, y EEPROM es utilizada para datos permanentes.
+   - Organización: Se organiza en bloques de direcciones, la RAM para variables y la Flash/ROM para instrucciones.
+
+3. Registros y unidad aritmética lógica (ALU)
+   - Registros de propósito general: Utilizados para operaciones aritméticas y de almacenamiento temporal de datos.
+   - Registros específicos: Controlan periféricos y configuraciones del microcontrolador.
+   - Registros reservados: No pueden ser modificados por el programador, y son gestionados por el hardware.
+
+4. Programación del microcontrolador
+   - Instrucciones en ensamblador: Operaciones básicas como carga, almacenamiento, aritmética, y control de flujo (salto condicional e incondicional).
+   - Modos de direccionamiento: Inmediato, directo, indirecto, entre otros, que definen cómo se accede a los datos.
+   - Estructura de un programa: Inicia con la configuración de registros, luego la lógica de control y termina con la ejecución de funciones.
+
+5. Entrada/Salida (I/O)
+   - Configuración de registros: Se configuran registros de entrada y salida (DDR – Data Direction Register) para definir si un pin es de entrada o salida.
+   - Osciladores: Se configuran para generar la frecuencia del reloj, crucial para el funcionamiento del microcontrolador.
+   - Dispositivos periféricos básicos: Son interfaces como ADC, DAC, y GPIOs.
+
+6. Interrupciones externas y temporizadores
+   - Interrupciones externas: Permiten al microcontrolador responder a eventos externos sin necesidad de consultar constantemente los periféricos.
+   - Temporizadores: Se utilizan para medir el tiempo y generar retrasos precisos o controlar eventos periódicos.
+
+7. Interfaces y comunicación
+   - RS232: Es una interfaz de comunicación serial estándar usada para transmitir datos de manera asíncrona.
+   - SPI (Serial Peripheral Interface): Protocolo serial síncrono que permite la comunicación entre el microcontrolador y dispositivos periféricos.
+   - TWI (Two Wire Interface) o I2C: Protocolo de comunicación serial que utiliza dos líneas (SDA, SCL) para la transmisión de datos entre múltiples dispositivos.
