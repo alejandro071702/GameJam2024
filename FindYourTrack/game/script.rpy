@@ -1,11 +1,21 @@
 ﻿# Coloca el código de tu juego en este archivo.
 
-# Declara los personajes usados en el juego como en el ejemplo:
+# Characters
+define iot = Character('Chipi-Chan', color = "#BEA665")
+define cloud = Character('Nubeka', color = "#004B8B")
+define web = Character('S/N', color = "#000000")
+define geo = Character('Mappu', color = "#FFF")
 
-define e = Character("Eileen")
-
+#Narrator
+define narrator = Character(kind = nvl)
 
 # El juego comienza aquí.
+define circleirisin = ImageDissolve("imagedissolve circleiris.png", 1.0, 8 , reverse=True)
+
+define circleirisout = ImageDissolve("imagedissolve circleiris.png", 1.0, 8)
+ 
+ 
+
 
 label start:
 
@@ -13,20 +23,26 @@ label start:
     # defecto. Es posible añadir un archivo en el directorio 'images' con el
     # nombre "bg room.png" or "bg room.jpg" para que se muestre aquí.
 
-    scene bg room
+    scene bg micro
 
-    # Muestra un personaje: Se usa un marcador de posición. Es posible
-    # reemplazarlo añadiendo un archivo llamado "eileen happy.png" al directorio
-    # 'images'.
+    show geo angry
 
-    show eileen happy
+    geo "Baka mou shiranai"
 
-    # Presenta las líneas del diálogo.
+    scene black
+    with circleirisin
 
-    e "Has creado un nuevo juego Ren'Py."
+    scene bg micro
+    show img pe:
+        xalign 0.5
+        yalign 0
 
-    e "Añade una historia, imágenes y música, ¡y puedes presentarlo al mundo!"
-
-    # Finaliza el juego:
+    pause(0.2)
+    show img pe:
+        xalign 0.5
+        yalign 1
+    narrator "Narration"
+    narrator "A long time ago..."
+    with circleirisout
 
     return
