@@ -144,7 +144,7 @@ default preferences.afm_time = 15
 ## Normalmente, este valor no debe ser modificado. Si lo es, debe ser siempre
 ## una cadena literal y no una expresión.
 
-define config.save_directory = "FindYourTrack-1728577463"
+define config.save_directory = "FindYourTrack-1728593321"
 
 
 ## Icono #######################################################################

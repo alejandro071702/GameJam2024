@@ -20,14 +20,11 @@ $ renpy.music.register_channel(channel1, loop=True)
 $ renpy.music.register_channel(channel2, loop=True)
 init:
     image micro-bg:
-        "bg micro.png"
-        zoom 1.5
+        "bg_mono_micro.jpg"
     image micro-bg-2:
-        "bg micro-2.png"
-        zoom 1.5
+        "bg_mono_micro-2.jpg"
     image salon:
-        "bg salon.png"
-        zoom 1.5
+        "bg_mono_salon.jpg"
 
 
 
