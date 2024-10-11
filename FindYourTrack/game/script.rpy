@@ -16,8 +16,8 @@ define p = Character('Vato123')
 define circleirisin = ImageDissolve("imagedissolve circleiris.png", 1.0, 8 , reverse=True)
 define circleirisout = ImageDissolve("imagedissolve circleiris.png", 1.0, 8)
 define circlewipe = ImageDissolve("imagedissolve circlewipe.png", 1.0, 8)
-define sl_easein = MoveTransition(1.0, enter=offscreenleft, enter_time_warp=_warper.easein)
-define sr_easein = MoveTransition(1.0, enter=offscreenright, enter_time_warp=_warper.easein)
+define sl_easein = MoveTransition(0.5, enter=offscreenleft, enter_time_warp=_warper.easein)
+define sr_easein = MoveTransition(0.5, enter=offscreenright, enter_time_warp=_warper.easein)
 
 transform slightleft:
     xalign 0.25
@@ -109,7 +109,6 @@ label inicio:
     "" "..."
 
     #return
-
 
 label c2:
     scene bg_pasillo
