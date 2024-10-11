@@ -26,7 +26,6 @@ transform slightleft:
 transform slightright:
     xalign 0.75
     yalign 1.0
-
 image towa_animated = Animation("images/towa front.png", 0.5, "images/towa side.png", 0.5)
 
 # $ renpy.music.register_channel(channel1, loop=True)
@@ -49,7 +48,7 @@ init:
         (0, 0), "mona3.png",
         (250, 265), "face feliz.png"
     )
-
+    
     image web triste = Composite(
         (600, 600),
         (0, 0), "mona3.png",
@@ -76,8 +75,7 @@ init:
 
 label char:
     scene micro-bg
-    # show iot feliz
-    
+    show iot feliz
     iot "Hola"
     return
 
@@ -114,13 +112,19 @@ label inicio:
 
     p "Creo que es hora de ir a mi primera clase."
 
-    scene bg_redes with Dissolve(0.5)
     scene black with circlewipe
+    scene bg_redes with Dissolve(0.5)
     # pause(1.0)
+    play music "main track.ogg"
+    
+    #return
+
+label cloud1:
     scene bg_redes with circlewipe
-
+   
     p "(Las clases se sienten más pesadas cuando intentas prestar atención. Ni siquiera sé si me quedó todo claro)"
-
+    
+    
     show cloud feliz with sl_easein
 
     p "(Esta es la chica que se sienta al lado mío, cloudGirl. Estábamos juntos en un equipo hace unos semestres, pero nunca la vi hablar; sólo envió su parte del trabajo al final, y fue lo mejor de todo el proyecto.)"
@@ -130,29 +134,25 @@ label inicio:
     p "(Así que sí puede hablar)."
     p "Me perdí un poco, ¿podrías explicarme?"
     cloud "La capa de transporte en el modelo OSI se encarga de segmentar y reensamblar la información para transmitirla de manera eficiente. A cada segmento se le asigna un número de secuencia para que el receptor pueda rehacerlos en el orden correcto. Utiliza protocolos de control como TCP para asegurar que todos los paquetes lleguen-"
-
+    p "¡Espera, no estoy entendiendo!"
     hide cloud feliz
-
     "" "..."
-
-    #return
-
-label c2:
     scene bg_pasillo
     p "Al menos estoy seguro de que puedo pedirle ayuda..."
+    return
+label iot1:
     p "Hora de mi siguiente clase"
-    "Profesor" ``
-
-    show geo feliz at right with sl_easein
-    show web feliz at left with sr_easein
-
-    geo ""
-
-label microcontroladores:
     scene bg_mono_micro
-    'Profesor' "Así tiene que quedar su proyecto. Es en equipos, y para no complicarnos las cosas, trabajen con la persona que sigue de ustedes en la lista."
-    p "(Después de mí… Supongo que me toca con ella)"
-
+    show iot feliz with sl_easein
+    iot "Oye, vas en mi equipo para la práctica. Ponte a programar esto."
+    p "(iotGirl. Suele pedirme que haga cosas para las prácticas, y yo sólo obedezco sin importar qué me pida.)"
+    p "(Ambos sabemos que hubiera reprobado sin oportunidad de recuperarme desde el principio si no fuera porque me trae de acá para allá para las prácticas y añade mi nombre en los reportes)."
+    p "(Gracias a ella es que esta es la única materia que no voy reprobando.)"
+    scene bg_mono_micro with circlewipe
+    iot "Gracias, limpia la mesa antes de irte."
+    hide iot feliz
+    p "..."
+    scene bg_pasillo with circlewipe
     return
 
 
