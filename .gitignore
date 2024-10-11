@@ -4,3 +4,4 @@
 *.rpyc
 *.save
 FindYourTrack/errors.txt
+FindYourTrack/log.txt
