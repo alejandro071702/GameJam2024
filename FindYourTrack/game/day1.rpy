@@ -86,7 +86,7 @@ label nextday:
     if persistent.geoF == True and persistent.webF == True and persistent.iotF == True and persistent.cloudF == True:
         menu:
             'T̷̢̛̪͔̘͓̆̎̿͒̽̍͛̎̈͊͆̍̊̕ͅH̴̛̹̩̻̭͓͙͍͙͊̌̈̽̂́̋̐͛̂͐͜e̷͚̊͐̾͑̓͛̓́͑͗̀̅̽ͅr̶̟͚͖̣̬͓͕͕̻̗̜̣̬̒̍͛̐̂̇̽̽̈́̒̇͑̒e̷̻͔̩̱̮̻̪͍̰̓ ̸̡̢̫̰͍͈̞̪̣̞̍̊͠i̴̖̘̗̥̫͆̃̏̍̓̉̃̎̕S̴̮̻͖̣̱̹̖͋̈́͒̓͗͋̀͒̓ͅ ̸̧̡̲̱̩̰̙͇̗̫͍̬͉̬̮̔̓̐̕͝o̶̥͈̳̺̺̱̙͇͈͕̗̯̦̽̌͒͗̽͂̔̕͝n̷̢̰̞͔̭͍̋͆̂͋͂̏̓̂̐̔̀͆̂͘ͅL̵̩̦̦̹̼̺̩̗͉͒̃ỳ̵̡̜̟͍̻̮͖͗͠ ̶̭̫̯͈̘̣͕̦̥͊̀̀̊̏͐͗̈́̈́̀̈͜͝͝O̷̹͓͐̾̇͌̈́̒͌͂n̷̺͎̩͕̰̝̥̙͈̊͑̇̊͗̅̓͂̈e̷͔̣͈̣͙͕̮͖̫͚̾̊̇̊͒̽̆̍́̍̀̎̕͜':
-                return
+                jump extraStart
     elif f == 1:
         menu:
             '"Debería intentar estudiar más con Claudia"':

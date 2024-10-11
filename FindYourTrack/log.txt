@@ -61,3 +61,5 @@ Prepare screens took 0.00s
 Running _start took 0.00s
 Screen sizes: virtual=(1280, 720) physical=(1280, 657) drawable=(1280, 657)
 Maximum texture size: 4096x4096
+Screen sizes: virtual=(1280, 720) physical=(1280, 657) drawable=(1280, 657)
+Maximum texture size: 4096x4096
