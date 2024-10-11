@@ -18,20 +18,23 @@ label iotDay2:
     iot "... ¿Porqué no te fuiste?"
     menu: 
         '¿A poco el salón es tuyo?':
-            iot "... Pues no."
+            show iot molesto at center
+            iot "... Pues no, pero no tienes que ser tan grosero."
         'Repruebo si no hago la práctica':
-            iot "Bueno, supongo que cualquier razón es buena."
+            show iot molesto at center
+            iot "Entonces no te importan mis sentimientos."
+            # iot "Bueno, supongo que cualquier razón es buena."
         'No puedo abandonarte a tu suerte para terminar la práctica':
             show iot molesto at center
             iot "¿No me crees capaz de hacer esto por mi cuenta? Eso es aún más insultante que lo que hicieron los demás."
             # "" ""
-            play sound "punch.opus"
-            $ HideInterface()
-            scene black with circleirisoutfast
-            hide iot molesto
-            pause(4.0)
-            $ renpy.movie_cutscene("intro.webm")
-            return
+    play sound "punch.opus"
+    $ HideInterface()
+    scene black with circleirisoutfast
+    hide iot molesto
+    pause(4.0)
+    $ renpy.movie_cutscene("intro.webm")
+    return
             
 
     
