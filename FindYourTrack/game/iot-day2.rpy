@@ -17,14 +17,14 @@ label iotDay2:
     show iot troste at center with move
     iot "... ¿Porqué no te fuiste?"
     menu: 
-        '¿A poco el salón es tuyo?':
+        '"¿A poco el salón es tuyo?"':
             show iot molesto at center
             iot "... Pues no, pero no tienes que ser tan grosero."
-        'Repruebo si no hago la práctica':
+        '"Repruebo si no hago la práctica"':
             show iot molesto at center
             iot "Entonces no te importan mis sentimientos."
             # iot "Bueno, supongo que cualquier razón es buena."
-        'No puedo abandonarte a tu suerte para terminar la práctica':
+        '"No puedo abandonarte a tu suerte para terminar la práctica"':
             show iot molesto at center
             iot "¿No me crees capaz de hacer esto por mi cuenta? Eso es aún más insultante que lo que hicieron los demás."
             # "" ""

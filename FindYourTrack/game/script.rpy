@@ -169,14 +169,11 @@ label interfaces:
     p "Así cómo lo explicaste sí suena bien chevere."
     web "¿Verdad que sí?, ¿qué fue lo que te llamó la atención?"
     menu: 
-        "resp_1":
-            p "Me llamó la atención que las aplicaciones sean accesibles desde cualquier dispositivo con conexión a Internet."
+        '"Me llamó la atención que las aplicaciones sean accesibles desde cualquier dispositivo con conexión a Internet."':
             web "A mí también."
-        "resp_2":
-            p "Que será fácil conseguir trabajo."
+        '"Que será fácil conseguir trabajo."':
             web "Sí, muchos lo eligen por eso."
-        "resp_3":
-            p "El dorado de tus ojos."
+        '"El dorado de tus ojos."':
             web "Estamos hablando del desarrollo web."
     web "Aunque, tiene sus desventajas, si no tienes Internet no será funcional."
     p "(No me interesaba pra nada esa área, pero ella lo hace ver interesante)"
