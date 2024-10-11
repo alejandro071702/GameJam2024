@@ -1,0 +1,37 @@
+[Día antes del exámen parcial]
+User: (Veo a todos muy preocupados, ¿olvidé hacer algún proyecto?)
+	(¡No puede ser! Olvidé el examen, no he estudiado nada y no creo alcanzar a ver en una noche, menos 5 minutos antes)
+Web: ¡Hola, user! ¿Emocionado por el examen de mañana? Llevo desvelándome toda la semana, estoy segura de que me irá bien.
+User: (Qué animada, ¿quién se alegra por un examen?) Eh... en realidad no. No he estudiado nada... y no entiendo nada.
+Web: Pero no es tan difícil. Si pudiste hacer los ejercicios que encargó el profesor, no creo que tengas problema.
+User: ¿Crees qué puedas explicarme más tarde? Si tienes tiempo libre.
+Web: Tengo mi agenda muy apretada, pero ¡va! Te veo más tarde.
+[...]
+User: (Llevo esperando a Web, no la veo por ningún lado. Espero que sí venga.)
+Web: ¡Hey! Perdón por la tardanza, tenía un compromiso.
+User: Está bien, no te preocupes.
+[Estudianding]
+User: ... Ah, muchas gracias, creo que ya entiendo mejor los temas. Se nota que te gusta mucho esta materia.
+Web: Síí, siempre me ha gustado mucho el diseño, dibujar y el frontend, además quiero enfocarme en el Área de Énfasis de Desarrollo Web y Multiplataforma.
+User: ¿En serio? Yo aún no decido que área elegir... pero dime, ¿por qué te interesa esa en especifico?
+Web: El desarrollo web y multiplataforma es interesante por su accesibilidad global, versatilidad al funcionar en múltiples dispositivos, constante evolución tecnológica, alta demanda laboral, y por permitir creatividad en la creación de experiencias interactivas.
+User: Genial... Suena interesante, no había puesto tanta atención a lo que conlleva el área.
+Web: Podría hablar todo el día, ¿quieres que siga?
+User: Sí, por favor.
+Web: Bueno, ahondando en cada característica que te mencioné, es interesante porque las aplicaciones web son accesibles desde cualquier dispositivo con conexión a Internet, lo que permite a los desarrolladores llegar a un público más amplio. De igual manera, el desarrollo multiplataforma permite crear aplicaciones que funcionen en diferentes sistemas operativos como Windows, macOS, Android e iOS con un solo código base, lo que ahorra tiempo y recursos. También, la tecnología web está en constante evolución, lo que brinda oportunidades para aprender y aplicar nuevas herramientas y frameworks, como React, Angular o Vue.js. Y una gran ventaja es que hay una alta demanda de desarrolladores web y multiplataforma en el mercado laboral, lo que significa mejores oportunidades de empleo y crecimiento profesional. Y el principal motivo por el cual me gusta es porque el desarrollo web permite la creación de experiencias interactivas y visuales, lo que estimula la creatividad y la innovación.
+User: (Ah mi mente, demasiada información para mí)
+	Así cómo lo explicaste sí suena bien chevere.
+Web: ¿Verdad que sí?, ¿qué fue lo que te llamó la atención?
+User: Opciones
+		1) Me llamó la atención que las aplicaciones sean accesibles desde cualquier dispositivo con conexión a Internet.
+		2) Que será fácil conseguir trabajo.
+		3) El dorado de tus ojos.
+Web: 1) A mí también.
+	2) Sí, muchos lo eligen por eso.
+	3) Estamos hablando del desarrollo web.
+	Aunque, tiene sus desventajas, si no tienes internet no será funcional.
+User: (No me interesaba para nada esa área, pero ella lo hace ver interesante)
+[...]
+User: (Nos quedamos un par de horas hablando, fue muy intrigante conocer más acerca del área de desarrollo web. Tampoco había notado lo linda que se ve hablando de lo que la apasiona)
+
+
