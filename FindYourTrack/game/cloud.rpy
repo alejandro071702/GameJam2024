@@ -116,7 +116,7 @@ label cloud_dia2:
  
 
 label cloud_dia3:
-    scene bg_mono_interfaces_3 
+    scene bg_mono_interfaces_3 with circleirisout
     show cloud bien feliz at center with sl_easein
 
 
