@@ -1,5 +1,4 @@
 label webDay3:
-<<<<<<< Updated upstream
    p "(Terminé mis examenes finales del semestre, estuvieron complicados, pero se logró con mucha fe. Dudo de pasar todas mis materias, los últimos días las dejé de lado por enfocarme más en Interfaces Gráficas, ya que necesito aprobar esta materia para poder estudiar el área de desarrollo web)."
    show web feliz
    web "¡Hola! ¿Cómo te fue en tus exámenes?"
@@ -21,18 +20,4 @@ label webDay3:
    "" ""
    p "(Finalmente, me decidí por enfocarme en el Área de Desarrollo Web y Multiplaforma, y la materia de interfaces gráficas con aplicaciones es esencial para este track. Es por eso que le dediqué la mayor parte de mi tiempo, dejando de lado las otras materias y proyectos. Con mucha fe, pasé mi sexto semestre)."
    p "(No me quejo. Web y yo nos volvimos cercanos gracias a que compartimos intereses. Nos ayudamos mutuamente a lo largo del curso, y ahora estaremos juntos en el área de desarrollo web y multiplataforma. Siento que será una hermosa aventura)."
-   
-=======
-    scene bg_pasillo with circlewipe
-    show web muyfeliz with sr_easein
-    p "(Terminé todos mis exámenes finales del semestre, fue complicado, pero se logró con mucha fe. Dudo sí pasaré todas mis materias, los últimos días las descuidé un poco porque decidí enfocarme más en interfaces gráficas, ya que necesito tenerla aprobada si quiero estudiar el track de desarrollo web.)"
-    web "¿Qué tal?, ¿cómo te fue en tus exámenes?"
-    p "Me fue. Comparado a las primeras evaluaciones del semestre, creo que ha sido lo mejor que me ha ido."
-    web "¡Qué bien!"
-    p "Y estoy seguro que en interfaces me fue bien. Gracias a tu ayuda."
-    web "Me alegro de oírlo. Aquí andamos para ayudar."
-    p "También, acabé convenciéndome por estudiar el área de desarrollo web. ¿Y tú?, ¿no habrás cambiado de opinión?"
-    web "Claro que no, y menos ahora que sé que estaremos juntos."
-    p "(Al final decidí enfocarme más en el área de Desarrollo Web y Multiplataforma, y la materia requisito para cursar dicha área es Interfaces Gráficas con Aplicaciones, así que le dediqué la mayor parte de mi tiempo y dejé de lado las otras materias y proyectos. Con mucha fe pasé mi sexto semestre)"
-    p "(No me quejo. Web y yo nos hicimos más cercanos gracias a que compartimos intereses, nos ayudamos el resto del curso de interfaces y ahora estaremos juntos en el Área de Énfasis)."
->>>>>>> Stashed changes
+   jump epilogue_web
