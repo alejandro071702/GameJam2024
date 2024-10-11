@@ -2,9 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/web.rpy", line 144: expected ':' not found.
-    label we
-            ^
+File "game/cloud.rpy", line 46: end of line expected.
+    cloud '(con una leve sonrisa)':
+                                  ^
+
+File "game/cloud.rpy", line 49: end of line expected.
+    P '(pensativo)':
+                   ^
 
 Ren'Py Version: Ren'Py 8.3.2.24090902
-Thu Oct 10 21:29:26 2024
+Fri Oct 11 01:02:10 2024

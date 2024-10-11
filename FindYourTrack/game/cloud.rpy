@@ -43,10 +43,10 @@ label dia_especial_explicacion:
     P '(interesado)'
     p 'Entonces, ¿todo se basa en eso? ¿Cómo organizas esos recursos?'
 
-    cloud '(con una leve sonrisa)':
+    cloud '(con una leve sonrisa)'
     cloud'“Exactamente. La arquitectura define cómo se organizan y gestionan los recursos. Es fascinante porque, aunque parezca que la nube es algo intangible, en realidad es todo un conjunto de componentes físicos y virtuales funcionando en armonía. La organización eficiente de esos recursos es lo que garantiza que cuando alguien necesita más capacidad, la obtenga en el momento preciso. O si el sistema falla en alguna parte, todo se redirige automáticamente sin que el usuario lo note.”'
 
-    P '(pensativo)':
+    P '(pensativo)'
     p'Entonces, lo que haces con la arquitectura tiene un impacto directo en la experiencia del usuario.'
 
     cloud '(mirándote con seriedad)'

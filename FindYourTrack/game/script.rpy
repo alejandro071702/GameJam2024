@@ -80,7 +80,7 @@ label char:
     return
 
 label start:
-    jump webEvent_Project_start
+    jump inicio
     return
 
 label showlogo:
