@@ -108,3 +108,67 @@ label cloud_dia2:
 
     cloud 'Algo así. Aquí puedes cometer errores y aprender de ellos sin consecuencias graves.'
  
+
+label cloud_dia3:
+    scene nosela q caiga
+    show cloud bien feliz at center with sl_easein
+
+
+    p '(pensando)'
+    p '(Terminé mis exámenes finales, y aunque fueron difíciles, siento que lo hice bien. A lo largo del semestre, Cloud me ayudó a comprender los conceptos más complejos sobre computación en la nube y redes. Siento que este es el camino que quiero seguir. Es hora de hablar con ella.)'
+
+    cloud '¡Hey! ¿Cómo te fue en los exámenes?'
+
+    p 'Me fue bastante bien, mejor de lo que esperaba. Aunque me concentré mucho en lo que aprendí contigo sobre la nube. Creo que es lo que más me apasiona ahora.'
+
+    cloud '(sonriendo)'
+    cloud '¿De verdad? ¡Eso es genial! Sabía que tenías potencial en este campo.'
+
+    p '(sonriendo levemente)'
+    p 'Gracias a ti, me di cuenta de cuánto me gusta esta área. Lo de la arquitectura en la nube y los servicios en la nube… realmente me atrapó. Es algo que quiero seguir aprendiendo.'
+
+    cloud '¿Entonces estás considerando especializarte en computación en la nube?'
+
+    p '(asintiendo)'
+    p 'Sí, decidí que voy a seguir esa área de énfasis. La flexibilidad, escalabilidad, y cómo todo puede adaptarse y evolucionar… me parece increíble. Además, siento que el cómputo en la nube es el futuro. Hay tantas posibilidades.'
+
+    cloud '(mirándote con satisfacción)'
+
+    cloud 'Sabía que te atraparía. Y lo mejor es que siempre habrá algo nuevo por aprender. Cada vez que dominas un concepto, surge algo más. Es un área en constante crecimiento.'
+
+    p '(sonriendo)'
+    p 'Sí, eso es lo que más me gusta. Y ahora que terminamos el semestre, siento que he aprendido mucho gracias a nuestras conversaciones.'
+
+    cloud 'Me alegra escuchar eso. La nube no es solo tecnología; es una forma de pensar en cómo hacer que las soluciones sean más ágiles y eficientes. Estoy segura de que tendrás éxito en esta área.'
+
+    p '(con confianza)'
+    p 'Lo haré. Además, me encantaría seguir trabajando contigo. Sería genial estar en el mismo equipo en futuros proyectos.'
+
+    cloud '(con una leve sonrisa)'
+    cloud 'Eso suena bien. Me gusta la idea de trabajar contigo en algo más grande. Imagínalo, podríamos crear soluciones que beneficien a miles de usuarios, o incluso cambiar la forma en que las empresas ven la infraestructura tecnológica.'
+
+    p'Definitivamente. Y ya tengo algunas ideas para proyectos en los que podríamos colaborar. Aplicaciones en la nube que optimicen los recursos de las empresas, o tal vez sistemas que automaticen la gestión de redes.'
+
+    cloud '(entusiasmada)'
+    cloud 'Eso sería increíble. Creo que haremos un gran equipo en esta área. Tienes la visión y, lo más importante, la motivación.'
+
+    p '(pensando)'
+    p '(Finalmente me decidí. Después de pasar tanto tiempo con Cloud y profundizar en el mundo de la nube, supe que este es el camino que quiero tomar. Cloud y yo compartimos los mismos intereses, y me hace feliz saber que podremos trabajar juntos en proyectos futuros. Será una aventura increíble, y sé que estamos listos para enfrentarla.)'
+
+    cloud 'Bueno, parece que ya tenemos nuestros caminos claros. Nos espera mucho trabajo, pero también muchas oportunidades.'
+
+    p '(sonriendo)'
+    p 'Sí, y estoy listo para lo que venga.'
+
+    cloud 'Nos veremos pronto, P. Estoy segura de que este será solo el comienzo de algo genial.'
+
+    p '(pensativo)' 
+    P 'Sí, lo sé. Esto apenas empieza.'
+
+    "" 'Fin del Semestre'
+
+    p '(pensando)'
+    p '(Al final, me decidí por especializarme en computación en la nube. Todo lo que aprendí con Cloud durante el semestre me hizo darme cuenta de que este es el área en la que quiero desarrollarme. Cloud y yo trabajamos juntos durante todo el curso, y ahora, con suerte, seguiremos colaborando en el futuro. Este semestre fue clave para tomar esta decisión, y no puedo esperar a ver lo que vendrá a continuación.)'
+
+
+
