@@ -21,7 +21,7 @@ Dislikes
 	Noise
 	Frontend
 	
-Internet de las cosas: Io-Tan (Microcontroladores)
+Internet de las cosas: Io-Tan (Microcontroladores) 			monika
 Microsoft if it was a person.
 Jealous
 Likes
@@ -32,14 +32,14 @@ Likes
 Dislikes	
 	being left out
 
-Sistemas Geoespaciales: Girl2 (Interfaces Gráficas con Aplicaciones) Morra castrosa
+Sistemas Geoespaciales: Girl2 (Interfaces Gráficas con Aplicaciones) 	tsun
 Likes
 	Homework
 	Studying
 Dislikes
 	Everything
 
-Desarrollo Web y Multiplataforma: Girl3 (Interfaces Gráficas con Aplicaciones) genki (Sunny pero vieja)
+Desarrollo Web y Multiplataforma: Girl3 (Interfaces Gráficas con Aplicaciones) genki
 Outgoing
 Likes
 	Drawing

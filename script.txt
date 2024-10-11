@@ -60,14 +60,22 @@ Título
 	Player: No, olvidé terminarlo.
 	webGirl: Cómo crees. ¿Qué vas a hacer, entonces?
 	Player: No sé, copiarlo de algún lado.
+	geoGirl: ¡No, no copies su tarea!
 	[show geoGirl]
-	geoGirl: 
+	geoGirl: Si haces eso, no vas a aprender nada. Mejor intenta hacerla después de decirle al profesor.
+	Player: (geoGirl. Demasiado molesta para su propio bien).
+	(Estudiamos en la misma escuela desde la secundaria y los únicos recuerdos que tengo de ella son cuando se quejaba con los profesores.)
+	geoGirl: Te puedo ayudar a hacer la tarea. Sólo tienes que pedírmelo la próxima vez.
+	Player: (Por más insoportable que pueda ser, no puedo rechazar su oferta. Necesito pasar esta materia).
+Profesor: Así tiene que quedar su proyecto. Es en equipos, escojan bien con quién se juntan para evitar pleitos.
+Player: (Me lleva. También necesito recuperarme en esta materia (vaya sorpresa), debo elegir bien, y creo que sólo tengo dos opciones).
+Opcion:
+	1) geoGirl
+	2)
 
 
-Profesor (voice off): Así tiene que quedar su proyecto. Es en equipos, y para no complicarnos las cosas, trabajen con la persona que sigue de ustedes en la lista.
-Player: (Después de mí… Supongo que me toca con ella)
 
-
+Day 2:
 
 
 
