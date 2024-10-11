@@ -10,10 +10,10 @@ label webEvent_Project_Event_1:
      p "(Ella parece muy emocionada, pero estamos cortos de tiempo.)"
      
      menu:
-          "Vamos a reducir las características":
+          '"Hay que enfocarnos en las características"':
                $ development = development + 1
                jump webEvent_Project_GuideHerBack
-          "¡Tus dibujos son lindos!":
+          '"¡Tus dibujos son lindos!"':
                jump webEvent_Project_EngageHerCreativity
 
 label webEvent_Project_2:
@@ -27,10 +27,10 @@ label webEvent_Project_2:
      web "¡Y también podemos animarlas!"
 
      menu:
-          "Haz que vuelva a concentrarse":
+          '"Mantengamos el código simple por ahora"':
                $ development = development + 1
                jump webEvent_Project_FocusBack
-          "Anímala a seguir su enfoque creativo":
+          '"¡Veamos cómo se verían en la app!"':
                jump webEvent_Project_EncourageHer
      
 label webEvent_Project_3:
@@ -44,10 +44,10 @@ label webEvent_Project_3:
      show web feliz
 
      menu:
-          "Sugiere corregir los errores":
+          '"Deberíamos corregir los errores"':
                $ development = development + 1
                jump webEvent_Project_CorrectErrors
-          "Déjala fluir libremente":
+          '"Enfoquemonos en la interfaz"':
                jump webEvent_Project_FlowFreely
 
 label webEvent_Project_Extra:
@@ -61,10 +61,10 @@ label webEvent_Project_Extra:
      show web triste
      web "¿Crees que le gustará a la gente? No quiero decepcionar a nadie."
      menu:
-          "Mantener la calma":
+          '"Hay que mantener la calma"':
                $ development = development + 1
                jump webEvent_Project_ReassureHer
-          "No darle importancia":
+          '"No le des importancia"':
                jump webEvent_Project_LoafAround
 
 label webEvent_Project_4:
@@ -116,7 +116,7 @@ label webEvent_Project_EngageHerCreativity:
      # return
 
 label webEvent_Project_FocusBack:
-     p "¡Es una gran adición! Pero mantengamos el código simple por ahora y lo agregamos después."
+     p "Siempre podemos agregar mas cosas después."
      if development > 1:
           show web triste
           web "Ahh, supongo que lo estoy haciendo de nuevo, ¿eh?"
@@ -129,13 +129,12 @@ label webEvent_Project_FocusBack:
      jump webEvent_Project_3
 
 label webEvent_Project_EncourageHer:
-     p "Me gustan las mascotas. ¡Veamos cómo se verían en la app!"
      show web muyfeliz
      web "¡Eh, ¿de verdad crees eso? Eso haría que la app fuera tan linda!"
      jump webEvent_Project_3
 
 label webEvent_Project_CorrectErrors:
-     p "¿Quizás deberíamos encargarnos de estos errores primero?"
+     
      web "¿Qué errores?"
      "" "Le muestras el registro de la aplicación con múltiples alertas y errores."
 
