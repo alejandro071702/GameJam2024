@@ -19,7 +19,7 @@ label cloud1:
     "" "..."
     scene bg_mono_pasillo
     p "Al menos estoy seguro de que puedo pedirle ayuda..."
-    return
+    jump iot1
 label iot1:
     p "Hora de mi siguiente clase"
     scene bg_mono_micro
@@ -33,10 +33,10 @@ label iot1:
     hide iot feliz
     p "..."
     scene bg_mono_pasillo with circlewipe
-    return
-label interfaces1:
+    jump webAndGeo1
+label webAndGeo1:
     scene bg_mono_pasillo with circle
-    show web bien feliz at left with sr_easein at z
+    show web bien feliz at left with sr_easein
     web "¡Hola, {name}!"
     show alpha_filter behind web
     p "(webGirl. Es así de amigable con todos los que se encuentra. Al menos eso es lo que he visto)"
@@ -58,9 +58,9 @@ label interfaces1:
     p "(geoGirl. El trabajo definitivamente será más tedioso, pero al menos juntarme con ella asegura que saldrá)."
     p "(webGirl. Definitivamente será más relajado, aunque no sé si pueda ayudarme a pasar la materia tan bien como con geoGirl)."
     menu:
-        geo.name:
+        'Mappu':
             jump geoChosen 
-        web.name:
+        'Sunny':
             jump webChosen
 label geoChosen:
     geo "¿Quieres ir en MI equipo? Nunca te he visto trabajar bien, voy a decirle al profesor que te consiga otra pareja."
@@ -78,3 +78,4 @@ label webChosen:
 label continuation:
     scene bg_mono_pasillo with circlewipe
     
+

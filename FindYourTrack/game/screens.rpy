@@ -355,7 +355,6 @@ screen main_menu():
     # Set the background image
     add "background_image.jpg" xalign 0.5 yalign 0.5
     # Add your PNG image
-    
     add gui.main_menu_background xalign 0.5 yalign 0.5 size (1280, 720) 
     add "Title Card.png" xalign 0.7 yalign 0.25
     ## Este marco vacío oscurece el menu principal.
