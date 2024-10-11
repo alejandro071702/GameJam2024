@@ -105,7 +105,7 @@ label inicio:
     p "Aunque, antes de eso… tal vez ni siquiera alcance a pasar este semestre. Llevo la mitad del sexto semestre reprobando todas las materias. "
     p "Al menos mantengo la esperanza de recuperarme los siguientes parciales."
     p "Estoy completamente seguro que no podré titularme a este paso."
-    p "…"
+    p "..."
     p "Que sea lo que Dios quiera."
 
     # jump showlogo
