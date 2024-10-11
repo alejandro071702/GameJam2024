@@ -1,7 +1,7 @@
 ﻿# Coloca el código de tu juego en este archivo.
 
 # Characters
-define iot = Character('Chipi-Chan', color = "#FFF")
+define iot = Character('Chipi-chan', color = "#FFF")
 define cloud = Character('Claudia', color = "#004B8B")
 define geo = Character('Mappu', color = "#FBB900")
 define web = Character('Sunny', color = "#BEA665")
