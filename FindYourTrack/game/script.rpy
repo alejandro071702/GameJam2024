@@ -3,8 +3,8 @@
 # Characters
 define iot = Character('Chipi-Chan', color = "#FFF")
 define cloud = Character('Nubeka', color = "#004B8B")
-define web = Character('Sunny', color = "#FBB900")
-define geo = Character('Mappu', color = "#BEA665")
+define geo = Character('Mappu', color = "#FBB900")
+define web = Character('Sunny', color = "#BEA665")
 
 #Narrator
 define narrator = Character(kind = nvl)
@@ -44,31 +44,31 @@ init:
 
     image web feliz = Composite(
         (600, 600),
-        (0, 0), "mona2.png",
+        (0, 0), "mona3.png",
         (250, 265), "face feliz.png"
     )
 
     image web triste = Composite(
         (600, 600),
-        (0, 0), "mona2.png",
-        (250, 265), "face triste.png"
+        (0, 0), "mona3.png",
+        (250, 265), "face troste.png"
     )
 
     image web muyfeliz = Composite(
         (600, 600),
-        (0, 0), "mona2.png",
+        (0, 0), "mona3.png",
         (250, 265), "face bien feliz.png"
     )
 
     image web molesto = Composite(
         (600, 600),
-        (0, 0), "mona2.png",
+        (0, 0), "mona3.png",
         (250, 265), "face molesto.png"
     )
 
     image geo feliz = Composite(
         (600, 600),
-        (0, 0), "mona3.png",
+        (0, 0), "mona2.png",
         (250, 265), "face feliz.png"
     )
 
