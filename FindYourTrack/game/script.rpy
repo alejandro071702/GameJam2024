@@ -1,4 +1,4 @@
-# Coloca el código de tu juego en este archivo.
+﻿# Coloca el código de tu juego en este archivo.
 
 # Characters
 define iot = Character('Chipi-Chan', color = "#FFF")
@@ -81,7 +81,7 @@ label char:
 
 
 label start:
-    jump inicio
+    jump epilogue_logo
     return
 
 label showlogo:

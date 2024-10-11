@@ -27,8 +27,7 @@ label geoDay2:
             geo "Mejor enfócate en tus cosas, y deja el trabajo importante a la gente que sabe hacerlo."        
     geo "Pero suficiente de esto, regresemos a porqué no pudiste hacer un simple trabajo para hoy."
     p "(Y volvemos a lo de siempre)."
-    " " "..."	
+    "" "..."
     scene bg_mono_pasillo with circlewipe
     p "Debo admitir que su pasión por esto es genuina. Pero no estoy seguro si eso es suficiente para aguantarla durante todo el semestre."
     p "Tal vez debería pedirle ayuda con la tarea. Después de todo, es la única manera de asegurar que no repruebe... aunque eso signifique tener que escuchar sus quejas un rato más."
-    
