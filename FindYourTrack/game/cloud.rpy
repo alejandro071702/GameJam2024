@@ -44,7 +44,7 @@ label cloud_dia2:
 
     show cloud feliz
 
-    P '(sonriendo levemente)'
+    p '(sonriendo levemente)'
     p 'Bueno, siento curiosidad. Te veo siempre tan concentrada, como si esto realmente te importara.'
 
     cloud '(mirando hacia la ventana, con un tono más suave)'
@@ -57,13 +57,13 @@ label cloud_dia2:
 
     show cloud bien feliz
 
-    P '(interesado)'
+    p '(interesado)'
     p 'Entonces, ¿todo se basa en eso? ¿Cómo organizas esos recursos?'
 
     cloud '(con una leve sonrisa)'
     cloud'“Exactamente. La arquitectura define cómo se organizan y gestionan los recursos. Es fascinante porque, aunque parezca que la nube es algo intangible, en realidad es todo un conjunto de componentes físicos y virtuales funcionando en armonía. La organización eficiente de esos recursos es lo que garantiza que cuando alguien necesita más capacidad, la obtenga en el momento preciso. O si el sistema falla en alguna parte, todo se redirige automáticamente sin que el usuario lo note.”'
 
-    P '(pensativo)'
+    p '(pensativo)'
     p'Entonces, lo que haces con la arquitectura tiene un impacto directo en la experiencia del usuario.'
 
     cloud '(mirándote con seriedad)'
@@ -75,7 +75,7 @@ label cloud_dia2:
 
     show cloud feliz
 
-    P '(curioso)'
+    p '(curioso)'
     p'¿Qué es lo que te parece tan interesante de eso?'
 
     cloud '(mirando hacia ti, más abierta)'
@@ -175,7 +175,7 @@ label cloud_dia3:
     show cloud feliz
 
     p '(pensativo)' 
-    P 'Sí, lo sé. Esto apenas empieza.'
+    p 'Sí, lo sé. Esto apenas empieza.'
 
     "" 'Fin del Semestre'
 
