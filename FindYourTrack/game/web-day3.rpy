@@ -18,7 +18,8 @@ label webDay3:
    web "Es agradable que tenemos la misma visión para el futuro. Pienso que nos entenderemos muy bien en esta área."
    p "Sin duda, siento que formaremos un buen equipo. Tú siempre tienes buenas ideas y eres muy cuidadosa con cada detalle en tus trabajos, y eso me gusta. Sinceramente, estoy feliz que pasamos juntos este semestre; sin ti, creo que no hubiera aprendido tanto."
    web "Es mutuo el sentimiento. Nos apoyamos y nos compartimos nuestros conocimientos, y eso nos ayudó a llegar más lejos. No puedo esperar a ver lo que lograremos juntos en este campo."
-   pause(1.0s)
+   scene bg_biblioteca with circlewipe
+   pause(1.0)
    p "(Finalmente, me decidí por enfocarme en el Área de Desarrollo Web y Multiplaforma, y la materia de interfaces gráficas con aplicaciones es esencial para este track. Es por eso que le dediqué la mayor parte de mi tiempo, dejando de lado las otras materias y proyectos. Con mucha fe, pasé mi sexto semestre)."
    p "(No me quejo. Sunny y yo nos volvimos cercanos gracias a que compartimos intereses. Nos ayudamos mutuamente a lo largo del curso, y ahora estaremos juntos en el área de desarrollo web y multiplataforma. Siento que será una hermosa aventura)."
    jump epilogue_web

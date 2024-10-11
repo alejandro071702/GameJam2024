@@ -1,24 +1,36 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/cloud.rpy", line 178, in script
-    P 'Sí, lo sé. Esto apenas empieza.'
-Exception: Sayer 'P' is not defined.
+  File "game/web-day3.rpy", line 21, in script
+    pause(1.0s)
+  File "renpy/common/000statements.rpy", line 456, in execute_pause
+    delay = eval(p["delay"])
+SyntaxError: invalid syntax (game/web-day3.rpy, line 21)
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/cloud.rpy", line 178, in script
-    P 'Sí, lo sé. Esto apenas empieza.'
-  File "C:\Users\alexxx\Downloads\renpy-8.3.2-sdk\renpy\ast.py", line 2573, in execute
-    Say.execute(self)
-  File "C:\Users\alexxx\Downloads\renpy-8.3.2-sdk\renpy\ast.py", line 575, in execute
-    who = eval_who(self.who, self.who_fast)
-  File "C:\Users\alexxx\Downloads\renpy-8.3.2-sdk\renpy\ast.py", line 464, in eval_who
-    raise Exception("Sayer '%s' is not defined." % who)
-Exception: Sayer 'P' is not defined.
+  File "game/web-day3.rpy", line 21, in script
+    pause(1.0s)
+  File "D:\Escritorio\renpy-8.3.2-sdk\renpy\ast.py", line 1974, in execute
+    self.call("execute")
+  File "D:\Escritorio\renpy-8.3.2-sdk\renpy\ast.py", line 1953, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+  File "D:\Escritorio\renpy-8.3.2-sdk\renpy\statements.py", line 374, in call
+    return method(parsed, *args, **kwargs)
+  File "renpy/common/000statements.rpy", line 456, in execute_pause
+    delay = eval(p["delay"])
+  File "D:\Escritorio\renpy-8.3.2-sdk\renpy\python.py", line 1207, in py_eval
+    code = py_compile(code, 'eval')
+  File "D:\Escritorio\renpy-8.3.2-sdk\renpy\python.py", line 1144, in py_compile
+    raise e
+  File "D:\Escritorio\renpy-8.3.2-sdk\renpy\python.py", line 1081, in py_compile
+    raise orig_e
+  File "D:\Escritorio\renpy-8.3.2-sdk\renpy\python.py", line 1073, in py_compile
+    tree = compile(source, filename, py_mode, ast.PyCF_ONLY_AST | flags, 1)
+SyntaxError: invalid syntax (game/web-day3.rpy, line 21)
 
 Windows-10-10.0.19041 AMD64
 Ren'Py 8.3.2.24090902
 FindYourTrack 1.0
-Fri Oct 11 08:36:10 2024
+Fri Oct 11 09:49:01 2024
