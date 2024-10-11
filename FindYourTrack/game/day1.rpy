@@ -35,11 +35,12 @@ label iot1:
     scene bg_mono_pasillo with circlewipe
     jump webAndGeo1
 label webAndGeo1:
-    scene bg_mono_pasillo with circle
+    scene bg_mono_pasillo with circlewipe
     show web bien feliz at left with sr_easein
-    web "¡Hola, {name}!"
+    web "¡Hola, [name]!"
     show alpha_filter behind web
-    p "(webGirl. Es así de amigable con todos los que se encuentra. Al menos eso es lo que he visto)"
+    p "(Sunny. Es así de amigable con todos los que se encuentra. Al menos eso es lo que he visto)"
+    hide alpha_filter
     web "¿Hiciste el ejercicio de ayer? Yo no estoy seguro de qué tan bien me quedó. ¿Puedo compararlo con el tuyo?"
     p "No, olvidé terminarlo."
     web "Cómo crees. ¿Qué vas a hacer, entonces?"
@@ -51,12 +52,13 @@ label webAndGeo1:
     show web behind alpha_filter
     p "(geoGirl. Demasiado molesta para su propio bien)."
     p "(Estudiamos en la misma escuela desde la secundaria y los únicos recuerdos que tengo de ella son cuando se quejaba con los profesores.)"
+    hide alpha_filter
     geo "Te puedo ayudar a hacer la tarea. Sólo tienes que pedírmelo la próxima vez."
     p "(Por más insoportable que pueda ser, no puedo rechazar su oferta. Necesito pasar esta materia)."
     "Profesor" "Así tiene que quedar su proyecto. Es en equipos, escojan bien con quién se juntan para evitar pleitos."
     p "(Me lleva. También necesito recuperarme en esta materia (vaya sorpresa), debo elegir bien, y creo que sólo tengo dos opciones)."
     p "(geoGirl. El trabajo definitivamente será más tedioso, pero al menos juntarme con ella asegura que saldrá)."
-    p "(webGirl. Definitivamente será más relajado, aunque no sé si pueda ayudarme a pasar la materia tan bien como con geoGirl)."
+    p "(Trabajar con Sunny definitivamente será más relajado, aunque no sé si pueda ayudarme a pasar la materia tan bien como con geoGirl)."
     menu:
         '"Mappu"':
             jump geoChosen 

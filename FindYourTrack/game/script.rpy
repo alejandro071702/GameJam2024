@@ -57,7 +57,7 @@ init:
         (250, 265), "face troste.png"
     )
 
-    image web muyfeliz = Composite(
+    image web bien feliz = Composite(
         (600, 600),
         (0, 0), "mona3.png",
         (250, 265), "face bien feliz.png"
@@ -73,6 +73,21 @@ init:
         (600, 600),
         (0, 0), "mona2.png",
         (250, 265), "face feliz.png"
+    )
+    image geo molesto = Composite(
+        (600, 600),
+        (0, 0), "mona2.png",
+        (250, 275), "face molesto.png"
+    )
+    image geo troste= Composite(
+        (600, 600),
+        (0, 0), "mona2.png",
+        (250, 265), "face troste.png"
+    )
+    image geo bien feliz= Composite(
+        (600, 600),
+        (0, 0), "mona2.png",
+        (250, 265), "face bien feliz.png"
     )
     image iot feliz = Composite(
         (600, 600),
@@ -102,13 +117,12 @@ label char:
 
 
 label start:
-    # jump for testing. Uncomment and change label to use it
+    # jump for testing. Uncomment and change label to use it    
     # jump iotDay2
     jump inicio 
     return
 
 label showlogo:
-
     return
 
 label inicio:
@@ -124,7 +138,6 @@ label inicio:
     p "Espero que pueda tomar una decisión para el final de este semestre..."
 
     scene bg_mono_pasillo with Dissolve(0.5)
-    show alpha_filter
     p "Aunque, antes de eso… tal vez ni siquiera alcance a pasar este semestre. Llevo la mitad del sexto semestre reprobando todas las materias. "
     p "Al menos mantengo la esperanza de recuperarme los siguientes parciales."
     p "Estoy completamente seguro que no podré titularme a este paso."

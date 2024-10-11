@@ -82,7 +82,7 @@ label webEvent_Project_4:
           scene black with Dissolve(1.0)
           "" "Te vas dejando una atmósfera pesada detrás de ti."
      else:
-          show web muyfeliz
+          show web bien feliz
           web "¡Lo logramos! ¡Y hasta funciona! ¡Oh Dios mío, estoy tan feliz!"
           web "Muchas gracias, [name]. Sé que a veces no soy la más fácil de trabajar, pero realmente me ayudaste a mantenerme enfocada. ¿Crees que a la gente le gustará?"
           show web feliz

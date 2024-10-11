@@ -8,7 +8,7 @@ label webDay2:
     p "¿Crees qué puedas explicarme más tarde? Si tienes tiempo libre."
     web "Tengo mi agenda muy apretada, pero ¡va! Te veo más tarde."
     "" "..."
-    p "(Llevo esperando a Web, no la veo por ningún lado. Espero que sí venga.)"
+    p "(Llevo esperando a Sunny, no la veo por ningún lado. Espero que sí venga.)"
     web "¡Hey! Perdón por la tardanza, tenía un compromiso."
     p "Está bien, no te preocupes."
     " " "Estudianding..."

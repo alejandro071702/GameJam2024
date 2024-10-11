@@ -1,6 +1,6 @@
 label webDay3:
    p "(Terminé mis examenes finales del semestre, estuvieron complicados, pero se logró con mucha fe. Dudo de pasar todas mis materias, los últimos días las dejé de lado por enfocarme más en Interfaces Gráficas, ya que necesito aprobar esta materia para poder estudiar el área de desarrollo web)."
-   show web feliz
+   show web bien feliz
    web "¡Hola! ¿Cómo te fue en tus exámenes?"
    p "Me fue bien. Comparado con las primeras evaluaciones del semestre, creo que es lo mejor que me ha ido. ¿Y a ti?"
    web "¡Qué bien! A mí también me fue bastante bien. Valió la pena desvelarme estos últimos días. Me siento libre por fin... ¿conoces ese sentimiento cuando terminas tu último examen y te das cuenta de que el estrés ha terminado?"
@@ -19,5 +19,5 @@ label webDay3:
    web "Es mutuo el sentimiento. Nos apoyamos y nos compartimos nuestros conocimientos, y eso nos ayudó a llegar más lejos. No puedo esperar a ver lo que lograremos juntos en este campo."
    pause(1.0s)
    p "(Finalmente, me decidí por enfocarme en el Área de Desarrollo Web y Multiplaforma, y la materia de interfaces gráficas con aplicaciones es esencial para este track. Es por eso que le dediqué la mayor parte de mi tiempo, dejando de lado las otras materias y proyectos. Con mucha fe, pasé mi sexto semestre)."
-   p "(No me quejo. Web y yo nos volvimos cercanos gracias a que compartimos intereses. Nos ayudamos mutuamente a lo largo del curso, y ahora estaremos juntos en el área de desarrollo web y multiplataforma. Siento que será una hermosa aventura)."
+   p "(No me quejo. Sunny y yo nos volvimos cercanos gracias a que compartimos intereses. Nos ayudamos mutuamente a lo largo del curso, y ahora estaremos juntos en el área de desarrollo web y multiplataforma. Siento que será una hermosa aventura)."
    jump epilogue_web
