@@ -5,7 +5,7 @@
 # Find Your Track
 
 [![Ren'Py](https://img.shields.io/badge/Ren'Py-FF7F7F?logo=Renpy&logoColor=fff)](#)
-[Itch.io](https://franhern.itch.io/find-your-track)
+[![Itch.io](https://img.shields.io/badge/itch.io-%23FF0B34.svg?logo=Itch.io&logoColor=white)](https://franhern.itch.io/find-your-track)
 
 ## Resumen
 
