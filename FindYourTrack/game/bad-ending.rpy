@@ -6,3 +6,5 @@ label badEnding:
     na "Aprende de sus errores y échale ganas a la vida"
     nvl clear
     na "Perdistes carnal"
+    $ persistent.iotF = True
+    $ renpy.save_persistent()
