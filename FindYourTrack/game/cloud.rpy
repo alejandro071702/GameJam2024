@@ -37,7 +37,7 @@ label cloud_dia2:
     cloud '(mirando su taza de café, pero atenta)'
     cloud '¿Qué pasa?'
 
-    p'¿Por qué elegiste estudiar esto? Quiero decir, redes, la nube… ¿qué fue lo que te atrajo?'
+    p '¿Por qué elegiste estudiar esto? Quiero decir, redes, la nube… ¿qué fue lo que te atrajo?'
 
     cloud '(haciendo una pausa, pensativa)'
     cloud 'Interesante pregunta. No muchos se detienen a preguntar por qué hacemos lo que hacemos.'
@@ -64,19 +64,19 @@ label cloud_dia2:
     cloud'“Exactamente. La arquitectura define cómo se organizan y gestionan los recursos. Es fascinante porque, aunque parezca que la nube es algo intangible, en realidad es todo un conjunto de componentes físicos y virtuales funcionando en armonía. La organización eficiente de esos recursos es lo que garantiza que cuando alguien necesita más capacidad, la obtenga en el momento preciso. O si el sistema falla en alguna parte, todo se redirige automáticamente sin que el usuario lo note.”'
 
     p '(pensativo)'
-    p'Entonces, lo que haces con la arquitectura tiene un impacto directo en la experiencia del usuario.'
+    p 'Entonces, lo que haces con la arquitectura tiene un impacto directo en la experiencia del usuario.'
 
     cloud '(mirándote con seriedad)'
     cloud 'Exactamente. Cada decisión que tomas en cuanto a la organización de la infraestructura afecta la capacidad de la nube para ser ágil, eficiente y, lo más importante, confiable.'
 
-    p'¿Y los servicios en la nube? ¿Cómo encajan ahí?'
+    p '¿Y los servicios en la nube? ¿Cómo encajan ahí?'
 
     cloud 'Bueno, los servicios en la nube son como las piezas de un rompecabezas que completan la imagen. Si la arquitectura es la estructura básica, los servicios son los componentes que los usuarios realmente ven y utilizan. Servicios como IaaS (Infraestructura como Servicio), PaaS (Plataforma como Servicio) y SaaS (Software como Servicio) proporcionan diferentes niveles de control y flexibilidad según lo que los usuarios necesiten.'
 
     show cloud feliz
 
     p '(curioso)'
-    p'¿Qué es lo que te parece tan interesante de eso?'
+    p '¿Qué es lo que te parece tan interesante de eso?'
 
     cloud '(mirando hacia ti, más abierta)'
     cloud 'Lo que me atrajo es cómo todo esto es adaptable y evolutivo. No es estático, cambia constantemente según las necesidades. Los servicios en la nube pueden crecer con las demandas del mercado. Las empresas no tienen que comprar servidores físicos o preocuparse por límites de almacenamiento; pueden simplemente ajustar lo que necesitan en tiempo real.'
@@ -84,7 +84,7 @@ label cloud_dia2:
     show cloud bien feliz
 
     p '(sonriendo)'
-    p'Es como tener un sistema que crece contigo.'
+    p 'Es como tener un sistema que crece contigo.'
 
     cloud '(sonriendo levemente)'
     cloud 'Exacto. Esa flexibilidad es lo que más me fascina. Ver cómo los recursos pueden escalar sin esfuerzo es algo que me hace admirar esta tecnología. El mundo digital se mueve tan rápido que si no tienes una infraestructura flexible, te quedas atrás. Y los servicios en la nube son los que hacen posible todo esto, permitiendo que los usuarios se concentren en lo que realmente importa sin tener que preocuparse por lo que está debajo.'
@@ -155,7 +155,7 @@ label cloud_dia3:
     cloud '(con una leve sonrisa)'
     cloud 'Eso suena bien. Me gusta la idea de trabajar contigo en algo más grande. Imagínalo, podríamos crear soluciones que beneficien a miles de usuarios, o incluso cambiar la forma en que las empresas ven la infraestructura tecnológica.'
 
-    p'Definitivamente. Y ya tengo algunas ideas para proyectos en los que podríamos colaborar. Aplicaciones en la nube que optimicen los recursos de las empresas, o tal vez sistemas que automaticen la gestión de redes.'
+    p 'Definitivamente. Y ya tengo algunas ideas para proyectos en los que podríamos colaborar. Aplicaciones en la nube que optimicen los recursos de las empresas, o tal vez sistemas que automaticen la gestión de redes.'
 
     cloud '(entusiasmada)'
     cloud 'Eso sería increíble. Creo que haremos un gran equipo en esta área. Tienes la visión y, lo más importante, la motivación.'

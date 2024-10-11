@@ -36,13 +36,17 @@ init:
     image cloud feliz = Composite(
         (600, 600),
         (0, 0), "mona1.png",
-        (250, 265), "face feliz.png"
+        (250, 265), "face serio.png"
     )
-
+    image cloud serio = Composite(
+        (600, 600),
+        (0, 0), "mona1.png",
+        (250, 265), "face serio.png"
+    )
     image cloud bien feliz = Composite(
         (600, 600),
         (0, 0), "mona1.png",
-        (250, 265), "face bien feliz.png"
+        (250, 265), "face serio.png"
     )
 
     image web feliz = Composite(

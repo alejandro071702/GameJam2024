@@ -30,6 +30,8 @@ label webDay2:
             web "Sí, muchos lo eligen por eso."
         '"El dorado de tus ojos."':
             web "Estamos hablando del desarrollo web."
+            scene bg_dormitorio with circlewipe
+            jump badEnding
     web "Aunque, tiene sus desventajas, si no tienes internet no será funcional."
     p "(No me interesaba para nada esa área, pero ella lo hace ver interesante)"
     "" "..."
