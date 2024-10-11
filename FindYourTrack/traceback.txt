@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 84, in script
+    jump webEvent_Project
+ScriptError: could not find label 'webEvent_Project'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 84, in script
+    jump webEvent_Project
+  File "C:\Users\franc\Documents\renpy-8.3.2-sdk\renpy\ast.py", line 1699, in execute
+    rv = renpy.game.script.lookup(target)
+  File "C:\Users\franc\Documents\renpy-8.3.2-sdk\renpy\script.py", line 1103, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'webEvent_Project'.
+
+Windows-10-10.0.19041 AMD64
+Ren'Py 8.3.2.24090902
+FindYourTrack 1.0
+Thu Oct 10 20:34:10 2024
