@@ -1,57 +1,57 @@
-2024-10-11 14:39:09 UTC
+2024-10-11 14:32:44 UTC
 Windows-10-10.0.19041
 Ren'Py 8.3.2.24090902
 
-Early init took 0.11s
-Loading error handling took 0.05s
-Loading script took 0.36s
-Loading save slot metadata took 0.08s
+Early init took 0.05s
+Loading error handling took 0.03s
+Loading script took 0.56s
+Loading save slot metadata took 0.02s
 Loading persistent took 0.00s
-Running init code took 0.08s
-Loading analysis data took 0.02s
+Running init code took 0.04s
+Loading analysis data took 0.01s
 Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.04s
+Reloading save slot metadata took 0.01s
 Index archives took 0.00s
-Backing up script files to 'C:\\Users\\franc\\AppData\\Roaming/RenPy/backups\\FindYourTrack':
-Dump and make backups took 0.09s
+Backing up script files to 'C:\\Users\\alexxx\\AppData\\Roaming/RenPy/backups\\FindYourTrack':
+Dump and make backups took 0.03s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.13s
-DPI scale factor: 1.000000
+Initial gc took 0.03s
+DPI scale factor: 1.250000
 nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.01s
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.20s
 Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.01s
+Init translation took 0.02s
+Build styles took 0.00s
 Load screen analysis took 0.00s
-Analyze screens took 0.03s
-Save screen analysis took 0.04s
-Prepare screens took 0.23s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.04s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.08s
+Save bytecode. took 0.02s
 Running _start took 0.00s
-Interface start took 0.21s
+Interface start took 0.03s
 
 Initializing gl2 renderer:
-primary display bounds: (0, 0, 1280, 720)
+primary display bounds: (0, 0, 1920, 1080)
 swap interval: 1 frames
 Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) HD Graphics 4400'
-Version: b'4.3.0 - Build 20.19.15.4531'
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 565.90'
 Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1168, 657) drawable=(1168, 657)
+Screen sizes: virtual=(1280, 720) physical=(1369, 770) drawable=(1369, 770)
 Maximum texture size: 4096x4096
 
 Full traceback:
   File "game/cloud.rpy", line 47, in script
     P '(sonriendo levemente)'
-  File "C:\Users\franc\Documents\renpy-8.3.2-sdk\renpy\ast.py", line 2573, in execute
+  File "C:\Users\alexxx\Downloads\renpy-8.3.2-sdk\renpy\ast.py", line 2573, in execute
     Say.execute(self)
-  File "C:\Users\franc\Documents\renpy-8.3.2-sdk\renpy\ast.py", line 575, in execute
+  File "C:\Users\alexxx\Downloads\renpy-8.3.2-sdk\renpy\ast.py", line 575, in execute
     who = eval_who(self.who, self.who_fast)
-  File "C:\Users\franc\Documents\renpy-8.3.2-sdk\renpy\ast.py", line 464, in eval_who
+  File "C:\Users\alexxx\Downloads\renpy-8.3.2-sdk\renpy\ast.py", line 464, in eval_who
     raise Exception("Sayer '%s' is not defined." % who)
 Exception: Sayer 'P' is not defined.
 
@@ -59,10 +59,474 @@ While running game code:
   File "game/cloud.rpy", line 47, in script
     P '(sonriendo levemente)'
 Exception: Sayer 'P' is not defined.
+Resetting cache.
+Early init took 84.27s
+Loading error handling took 0.02s
+Loading script took 0.06s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Dump and make backups took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.19s
+Cleaning stores took 0.00s
+Init translation took 0.02s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 565.90'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1369, 770) drawable=(1369, 770)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/cloud.rpy", line 47, in script
+    P '(sonriendo levemente)'
+  File "C:\Users\alexxx\Downloads\renpy-8.3.2-sdk\renpy\ast.py", line 2573, in execute
+    Say.execute(self)
+  File "C:\Users\alexxx\Downloads\renpy-8.3.2-sdk\renpy\ast.py", line 575, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\alexxx\Downloads\renpy-8.3.2-sdk\renpy\ast.py", line 464, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'P' is not defined.
+
+While running game code:
+  File "game/cloud.rpy", line 47, in script
+    P '(sonriendo levemente)'
+Exception: Sayer 'P' is not defined.
+Screen sizes: virtual=(1280, 720) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 97.79s
+Loading error handling took 0.02s
+Loading script took 0.09s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\alexxx\\AppData\\Roaming/RenPy/backups\\FindYourTrack':
+Dump and make backups took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.20s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 565.90'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1280, 720) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1280, 720) physical=(1369, 770) drawable=(1369, 770)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/cloud.rpy", line 60, in script
+    P '(interesado)'
+  File "C:\Users\alexxx\Downloads\renpy-8.3.2-sdk\renpy\ast.py", line 2573, in execute
+    Say.execute(self)
+  File "C:\Users\alexxx\Downloads\renpy-8.3.2-sdk\renpy\ast.py", line 575, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\alexxx\Downloads\renpy-8.3.2-sdk\renpy\ast.py", line 464, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'P' is not defined.
+
+While running game code:
+  File "game/cloud.rpy", line 60, in script
+    P '(interesado)'
+Exception: Sayer 'P' is not defined.
+Resetting cache.
+Early init took 123.46s
+Loading error handling took 0.01s
+Loading script took 0.08s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\alexxx\\AppData\\Roaming/RenPy/backups\\FindYourTrack':
+Dump and make backups took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.18s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 565.90'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1369, 770) drawable=(1369, 770)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/cloud.rpy", line 66, in script
+    P '(pensativo)'
+  File "C:\Users\alexxx\Downloads\renpy-8.3.2-sdk\renpy\ast.py", line 2573, in execute
+    Say.execute(self)
+  File "C:\Users\alexxx\Downloads\renpy-8.3.2-sdk\renpy\ast.py", line 575, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\alexxx\Downloads\renpy-8.3.2-sdk\renpy\ast.py", line 464, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'P' is not defined.
+
+While running game code:
+  File "game/cloud.rpy", line 66, in script
+    P '(pensativo)'
+Exception: Sayer 'P' is not defined.
+Resetting cache.
+Early init took 135.72s
+Loading error handling took 0.01s
+Loading script took 0.08s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\alexxx\\AppData\\Roaming/RenPy/backups\\FindYourTrack':
+Dump and make backups took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.17s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 565.90'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1369, 770) drawable=(1369, 770)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/cloud.rpy", line 78, in script
+    P '(curioso)'
+  File "C:\Users\alexxx\Downloads\renpy-8.3.2-sdk\renpy\ast.py", line 2573, in execute
+    Say.execute(self)
+  File "C:\Users\alexxx\Downloads\renpy-8.3.2-sdk\renpy\ast.py", line 575, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\alexxx\Downloads\renpy-8.3.2-sdk\renpy\ast.py", line 464, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'P' is not defined.
+
+While running game code:
+  File "game/cloud.rpy", line 78, in script
+    P '(curioso)'
+Exception: Sayer 'P' is not defined.
+Resetting cache.
+Early init took 153.83s
+Loading error handling took 0.02s
+Loading script took 0.07s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Dump and make backups took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.18s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 565.90'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1369, 770) drawable=(1369, 770)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/cloud.rpy", line 78, in script
+    P '(curioso)'
+  File "C:\Users\alexxx\Downloads\renpy-8.3.2-sdk\renpy\ast.py", line 2573, in execute
+    Say.execute(self)
+  File "C:\Users\alexxx\Downloads\renpy-8.3.2-sdk\renpy\ast.py", line 575, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\alexxx\Downloads\renpy-8.3.2-sdk\renpy\ast.py", line 464, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'P' is not defined.
+
+While running game code:
+  File "game/cloud.rpy", line 78, in script
+    P '(curioso)'
+Exception: Sayer 'P' is not defined.
+Resetting cache.
+Early init took 176.44s
+Loading error handling took 0.01s
+Loading script took 0.08s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\alexxx\\AppData\\Roaming/RenPy/backups\\FindYourTrack':
+Dump and make backups took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.19s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 565.90'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1369, 770) drawable=(1369, 770)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/cloud.rpy", line 178, in script
+    P 'Sí, lo sé. Esto apenas empieza.'
+  File "C:\Users\alexxx\Downloads\renpy-8.3.2-sdk\renpy\ast.py", line 2573, in execute
+    Say.execute(self)
+  File "C:\Users\alexxx\Downloads\renpy-8.3.2-sdk\renpy\ast.py", line 575, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\alexxx\Downloads\renpy-8.3.2-sdk\renpy\ast.py", line 464, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'P' is not defined.
+
+While running game code:
+  File "game/cloud.rpy", line 178, in script
+    P 'Sí, lo sé. Esto apenas empieza.'
+Exception: Sayer 'P' is not defined.
+Resetting cache.
+Early init took 220.90s
+Loading error handling took 0.01s
+Loading script took 0.08s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\alexxx\\AppData\\Roaming/RenPy/backups\\FindYourTrack':
+Dump and make backups took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.18s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 565.90'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1369, 770) drawable=(1369, 770)
+Maximum texture size: 4096x4096
 Cleaning stores took 0.00s
 Init translation took 0.00s
-Build styles took 0.01s
-Load screen analysis took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.01s
 Analyze screens took 0.00s
 Prepare screens took 0.00s
 Running _start took 0.00s

@@ -1,24 +1,24 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/cloud.rpy", line 47, in script
-    P '(sonriendo levemente)'
+  File "game/cloud.rpy", line 178, in script
+    P 'Sí, lo sé. Esto apenas empieza.'
 Exception: Sayer 'P' is not defined.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/cloud.rpy", line 47, in script
-    P '(sonriendo levemente)'
-  File "C:\Users\franc\Documents\renpy-8.3.2-sdk\renpy\ast.py", line 2573, in execute
+  File "game/cloud.rpy", line 178, in script
+    P 'Sí, lo sé. Esto apenas empieza.'
+  File "C:\Users\alexxx\Downloads\renpy-8.3.2-sdk\renpy\ast.py", line 2573, in execute
     Say.execute(self)
-  File "C:\Users\franc\Documents\renpy-8.3.2-sdk\renpy\ast.py", line 575, in execute
+  File "C:\Users\alexxx\Downloads\renpy-8.3.2-sdk\renpy\ast.py", line 575, in execute
     who = eval_who(self.who, self.who_fast)
-  File "C:\Users\franc\Documents\renpy-8.3.2-sdk\renpy\ast.py", line 464, in eval_who
+  File "C:\Users\alexxx\Downloads\renpy-8.3.2-sdk\renpy\ast.py", line 464, in eval_who
     raise Exception("Sayer '%s' is not defined." % who)
 Exception: Sayer 'P' is not defined.
 
 Windows-10-10.0.19041 AMD64
 Ren'Py 8.3.2.24090902
 FindYourTrack 1.0
-Fri Oct 11 08:39:41 2024
+Fri Oct 11 08:36:10 2024
