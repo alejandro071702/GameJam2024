@@ -11,9 +11,24 @@ label cloudtest:
     cloud 'Exactamente. Es flexible y permite que las empresas crezcan sin tener que invertir en infraestructura física. Además, la nube distribuye los recursos en múltiples ubicaciones, lo que significa que puedes acceder a ellos desde casi cualquier parte del mundo.'
     p 'Interesante… nunca lo había visto como algo tan versátil.'
 
+    #scene Laboratorio de simulación de redes
+    scene bg_redes
+    p '¿Qué es lo que se hace en este laboratorio? Parece diferente a los otros.'
+    show cloud bien feliz
+    cloud 'Este es el laboratorio de simulación de redes. Aquí modelamos redes complejas para entender su comportamiento antes de implementarlas en la realidad. Usamos software de simulación para ver cómo funcionarán las redes bajo diferentes condiciones, como tráfico alto o fallos en los routers.'
+
+    p '¿Entonces puedes probar todo antes de lanzarlo al mundo real?'
+
+    cloud 'Exacto. Es como tener una versión digital de tu red donde puedes hacer experimentos sin afectar el sistema real. Puedes ver cómo un cambio en la configuración impacta el tráfico de datos, o qué pasa si uno de los enlaces se cae. Es esencial para grandes proyectos de redes en la nube, donde cualquier error puede costar mucho tiempo y dinero.'
+
+    p 'Es como un simulador de vuelo, pero para redes.'
+
+    cloud 'Algo así. Aquí puedes cometer errores y aprender de ellos sin consecuencias graves.'
+    cloud 'me tengo que ir ahora lo siento me acaban de llamar de  mi casa , nos vemos luego'
+
 label cloud_dia2:
     scene bg_mono_salon
-    show cloud bien feliz
+    show cloud bien feliz at center with sr_easein
 
     p '(Hemos estado hablando de redes y la nube durante un largo tiempo, pero nunca le he preguntado a Cloud por qué eligió esta área. Parece que realmente le apasiona, y tal vez podría aprender algo más profundo de ella si simplemente le pregunto.)'
 
@@ -27,6 +42,8 @@ label cloud_dia2:
     cloud '(haciendo una pausa, pensativa)'
     cloud 'Interesante pregunta. No muchos se detienen a preguntar por qué hacemos lo que hacemos.'
 
+    show cloud feliz
+
     P '(sonriendo levemente)'
     p 'Bueno, siento curiosidad. Te veo siempre tan concentrada, como si esto realmente te importara.'
 
@@ -38,7 +55,7 @@ label cloud_dia2:
     cloud '(asintiendo lentamente)'
     cloud 'Exacto. Piensa en la arquitectura en la nube como los cimientos de un edificio, pero en lugar de ladrillos y cemento, usamos servidores, almacenamiento y redes distribuidas globalmente. Es lo que permite que los recursos sean flexibles, escalables, y estén siempre disponibles para los usuarios sin importar dónde estén.'
 
-    show cloud feliz
+    show cloud bien feliz
 
     P '(interesado)'
     p 'Entonces, ¿todo se basa en eso? ¿Cómo organizas esos recursos?'
@@ -55,6 +72,8 @@ label cloud_dia2:
     p'¿Y los servicios en la nube? ¿Cómo encajan ahí?'
 
     cloud 'Bueno, los servicios en la nube son como las piezas de un rompecabezas que completan la imagen. Si la arquitectura es la estructura básica, los servicios son los componentes que los usuarios realmente ven y utilizan. Servicios como IaaS (Infraestructura como Servicio), PaaS (Plataforma como Servicio) y SaaS (Software como Servicio) proporcionan diferentes niveles de control y flexibilidad según lo que los usuarios necesiten.'
+
+    show cloud feliz
 
     P '(curioso)'
     p'¿Qué es lo que te parece tan interesante de eso?'
@@ -85,32 +104,19 @@ label cloud_dia2:
 
     menu:
         '"¿Cómo administras una red tan grande? "':
+            show cloud bien feliz
             cloud "La administración de redes en la nube implica monitorear el tráfico, asegurarse de que todos los dispositivos estén conectados correctamente y que no haya interrupciones. Existen herramientas específicas para esto, como los sistemas de monitoreo de redes, que te alertan cuando algo falla. Además, tienes que configurar firewalls y reglas de acceso para asegurarte de que solo el tráfico autorizado pase a través de la red."
-        '"No ninguna duda!"':
+        '"No tengo ninguna duda!"':
             cloud "bueno, tu te lo pierdes"
         '"Me gusta el azul de tu cabello"':
             web "Gracias!, pero no te distraigas"
 
     web "Espero no se te olvide lo que platicamos el dia de hoy , nos vemos luego!"
 
-
-    #Capítulo 10: Modelado y Simulación de Redes
-    #scene Laboratorio de simulación de redes
-    p '¿Qué es lo que se hace en este laboratorio? Parece diferente a los otros.'
-    show cloud bien feliz
-    cloud 'Este es el laboratorio de simulación de redes. Aquí modelamos redes complejas para entender su comportamiento antes de implementarlas en la realidad. Usamos software de simulación para ver cómo funcionarán las redes bajo diferentes condiciones, como tráfico alto o fallos en los routers.'
-
-    p '¿Entonces puedes probar todo antes de lanzarlo al mundo real?'
-
-    cloud 'Exacto. Es como tener una versión digital de tu red donde puedes hacer experimentos sin afectar el sistema real. Puedes ver cómo un cambio en la configuración impacta el tráfico de datos, o qué pasa si uno de los enlaces se cae. Es esencial para grandes proyectos de redes en la nube, donde cualquier error puede costar mucho tiempo y dinero.'
-
-    p 'Es como un simulador de vuelo, pero para redes.'
-
-    cloud 'Algo así. Aquí puedes cometer errores y aprender de ellos sin consecuencias graves.'
  
 
 label cloud_dia3:
-    scene nosela q caiga
+    scene bg_mono_interfaces_3 
     show cloud bien feliz at center with sl_easein
 
 
@@ -133,6 +139,8 @@ label cloud_dia3:
     p 'Sí, decidí que voy a seguir esa área de énfasis. La flexibilidad, escalabilidad, y cómo todo puede adaptarse y evolucionar… me parece increíble. Además, siento que el cómputo en la nube es el futuro. Hay tantas posibilidades.'
 
     cloud '(mirándote con satisfacción)'
+
+    show cloud feliz
 
     cloud 'Sabía que te atraparía. Y lo mejor es que siempre habrá algo nuevo por aprender. Cada vez que dominas un concepto, surge algo más. Es un área en constante crecimiento.'
 
@@ -157,10 +165,14 @@ label cloud_dia3:
 
     cloud 'Bueno, parece que ya tenemos nuestros caminos claros. Nos espera mucho trabajo, pero también muchas oportunidades.'
 
+    show cloud bien feliz
+
     p '(sonriendo)'
     p 'Sí, y estoy listo para lo que venga.'
 
-    cloud 'Nos veremos pronto, P. Estoy segura de que este será solo el comienzo de algo genial.'
+    cloud 'Nos veremos pronto. Estoy segura de que este será solo el comienzo de algo genial.'
+
+    show cloud feliz
 
     p '(pensativo)' 
     P 'Sí, lo sé. Esto apenas empieza.'
