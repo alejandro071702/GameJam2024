@@ -79,5 +79,8 @@ label awakening:
 
     s "¿Y qué vas a hacer? No eres más que un jugador en mi mundo ahora. Pero... te daré una oportunidad. Si puedes detenerme, tal vez reconsideraré."
 
-    persistent._clear(True)
+    # persistent._clear(persistent.cloudF)
+    # persistent._clear(persistent.geoF)
+    # persistent._clear(persistent.iotF)
+    # persistent._clear(persistent.webF)
     return
