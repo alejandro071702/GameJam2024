@@ -16,6 +16,8 @@ define p = Character('Vato123')
 define circleirisin = ImageDissolve("imagedissolve circleiris.png", 1.0, 8 , reverse=True)
 define circleirisout = ImageDissolve("imagedissolve circleiris.png", 1.0, 8)
 define circlewipe = ImageDissolve("imagedissolve circlewipe.png", 1.0, 8)
+define sl_easein = MoveTransition(1.0, enter=offscreenleft, enter_time_warp=_warper.easein)
+define sr_easein = MoveTransition(1.0, enter=offscreenright, enter_time_warp=_warper.easein)
 
 transform slightleft:
     xalign 0.25
@@ -61,7 +63,8 @@ label showlogo:
 
     return
 
-label inicio: 
+label inicio:
+    play music "test one.ogg" fadeout 1
     scene black with Dissolve(0.5)
     python:
         name = renpy.input("What's your name?")
@@ -91,7 +94,7 @@ label inicio:
 
     p "(Las clases se sienten más pesadas cuando intentas prestar atención. Ni siquiera sé si me quedó todo claro)"
 
-    show cloud feliz
+    show cloud feliz with sl_easein
 
     p "(Esta es la chica que se sienta al lado mío, cloudGirl. Estábamos juntos en un equipo hace unos semestres, pero nunca la vi hablar; sólo envió su parte del trabajo al final, y fue lo mejor de todo el proyecto.)"
     p "(Nunca le había hablado… Tal vez pueda ayudarme a pasar)."
@@ -114,8 +117,8 @@ label c2:
     p "Hora de mi siguiente clase"
     "Profesor" ``
 
-    show geo feliz at left
-    show web feliz at right
+    show geo feliz at right with sl_easein
+    show web feliz at left with sr_easein
 
     geo ""
 
