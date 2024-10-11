@@ -1,11 +1,219 @@
-2024-10-11 12:28:53 UTC
+2024-10-11 14:09:27 UTC
 Windows-10-10.0.19041
 Ren'Py 8.3.2.24090902
 
 Early init took 0.06s
 Loading error handling took 0.03s
-Loading script took 0.15s
+Loading script took 0.17s
 Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+
+File "game/day1.rpy", line 1: expected statement.
+    int f = 0;
+          ^
+
+File "game/day1.rpy", line 70: expected statement.
+    f = 1
+      ^
+
+File "game/day1.rpy", line 75: expected statement.
+    f = 0
+      ^
+
+File "game/day1.rpy", line 77: end of line expected.
+    p "(Tengo mucho trabajo que hacer si quiero continuar la carrera. Sólo espero que una de las personas que acabo de conocer me ayude a aprobar)".
+                                                                                                                                                   ^
+
+File "game/day1.rpy", line 85: expected statement.
+    int x = 0;
+          ^
+
+File "game/day1.rpy", line 86: reached end of line when expecting ':'.
+    if (f)
+          ^
+
+File "game/day1.rpy", line 102: expected statement.
+    else 
+         ^
+
+File "game/day1.rpy", line 127: expected ':' not found.
+    else 
+         ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.85s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 565.90'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1452, 817) drawable=(1452, 817)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 32.62s
+Loading error handling took 0.02s
+Loading script took 0.12s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+
+File "game/day1.rpy", line 1: expected statement.
+    int f = 0
+          ^
+
+File "game/day1.rpy", line 70: expected statement.
+    f = 1
+      ^
+
+File "game/day1.rpy", line 75: expected statement.
+    f = 0
+      ^
+
+File "game/day1.rpy", line 77: end of line expected.
+    p "(Tengo mucho trabajo que hacer si quiero continuar la carrera. Sólo espero que una de las personas que acabo de conocer me ayude a aprobar)".
+                                                                                                                                                   ^
+
+File "game/day1.rpy", line 85: expected statement.
+    int x = 0
+          ^
+
+File "game/day1.rpy", line 90: expected statement.
+    x = 0
+      ^
+
+File "game/day1.rpy", line 93: expected statement.
+    x = 1
+      ^
+
+File "game/day1.rpy", line 94: Line is followed by a block, despite not being a menu choice. Did you forget a colon at the end of the line?
+    '"Ir con iotGirl suena a una buena idea"'
+                                             ^
+
+File "game/day1.rpy", line 102: expected ':' not found.
+    else 
+         ^
+
+File "game/day1.rpy", line 127: expected ':' not found.
+    else 
+         ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.39s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 565.90'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1452, 817) drawable=(1452, 817)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 92.00s
+Loading error handling took 0.02s
+Loading script took 0.12s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+
+File "game/day1.rpy", line 70: expected statement.
+    f = 1
+      ^
+
+File "game/day1.rpy", line 75: expected statement.
+    f = 0
+      ^
+
+File "game/day1.rpy", line 90: expected statement.
+    x = 0
+      ^
+
+File "game/day1.rpy", line 93: expected statement.
+    x = 1
+      ^
+
+File "game/day1.rpy", line 94: Line is followed by a block, despite not being a menu choice. Did you forget a colon at the end of the line?
+    '"Ir con iotGirl suena a una buena idea"'
+                                             ^
+
+File "game/day1.rpy", line 102: expected ':' not found.
+    else 
+         ^
+
+File "game/day1.rpy", line 127: expected ':' not found.
+    else 
+         ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.36s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 565.90'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1452, 817) drawable=(1452, 817)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 131.00s
+Loading error handling took 0.02s
+Loading script took 0.12s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+
+File "game/day1.rpy", line 90: expected statement.
+    x = 0
+      ^
+
+File "game/day1.rpy", line 93: expected statement.
+    x = 1
+      ^
+
+File "game/day1.rpy", line 94: Line is followed by a block, despite not being a menu choice. Did you forget a colon at the end of the line?
+    '"Ir con iotGirl suena a una buena idea"'
+                                             ^
+
+File "game/day1.rpy", line 106: expected statement.
+    x = 0
+      ^
+
+File "game/day1.rpy", line 109: expected statement.
+    x = 3
+      ^
+
+File "game/day1.rpy", line 110: Line is followed by a block, despite not being a menu choice. Did you forget a colon at the end of the line?
+    '"Ir con iotGirl suena a una buena idea"'
+                                             ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.35s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 565.90'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1452, 817) drawable=(1452, 817)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 174.55s
+Loading error handling took 0.02s
+Loading script took 0.13s
+Loading save slot metadata took 0.02s
 Loading persistent took 0.00s
 Running init code took 0.04s
 Loading analysis data took 0.01s
@@ -16,219 +224,7 @@ Backing up script files to 'C:\\Users\\Dio\\AppData\\Roaming/RenPy/backups\\Find
 Dump and make backups took 0.05s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.26s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 3050 Laptop GPU/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 565.90'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1458, 820) drawable=(1458, 820)
-Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/day1.rpy", line 38, in script
-    scene bg_mono_pasillo with circle
-  File "D:\Escritorio\renpy-8.3.2-sdk\renpy\ast.py", line 1357, in execute
-    paired = renpy.python.py_eval(self.paired)
-  File "D:\Escritorio\renpy-8.3.2-sdk\renpy\python.py", line 1209, in py_eval
-    return py_eval_bytecode(code, globals, locals)
-  File "D:\Escritorio\renpy-8.3.2-sdk\renpy\python.py", line 1202, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/day1.rpy", line 38, in <module>
-    scene bg_mono_pasillo with circle
-NameError: name 'circle' is not defined
-
-While running game code:
-  File "game/day1.rpy", line 38, in script
-    scene bg_mono_pasillo with circle
-  File "game/day1.rpy", line 38, in <module>
-    scene bg_mono_pasillo with circle
-NameError: name 'circle' is not defined
-Resetting cache.
-Early init took 103.11s
-Loading error handling took 0.02s
-Loading script took 0.11s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.03s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Dio\\AppData\\Roaming/RenPy/backups\\FindYourTrack':
-Dump and make backups took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
 Initial gc took 0.05s
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.25s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.03s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 3050 Laptop GPU/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 565.90'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1458, 820) drawable=(1458, 820)
-Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/day1.rpy", line 40, in script
-    web "¡Hola, {name}!"
-  File "D:\Escritorio\renpy-8.3.2-sdk\renpy\ast.py", line 2573, in execute
-    Say.execute(self)
-  File "D:\Escritorio\renpy-8.3.2-sdk\renpy\ast.py", line 615, in execute
-    renpy.exports.say(who, what, *args, **kwargs)
-  File "D:\Escritorio\renpy-8.3.2-sdk\renpy\exports\sayexports.py", line 132, in say
-    who(what, *args, **kwargs)
-  File "D:\Escritorio\renpy-8.3.2-sdk\renpy\character.py", line 1455, in __call__
-    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
-  File "D:\Escritorio\renpy-8.3.2-sdk\renpy\character.py", line 1106, in do_display
-    display_say(who,
-  File "D:\Escritorio\renpy-8.3.2-sdk\renpy\character.py", line 803, in display_say
-    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
-  File "D:\Escritorio\renpy-8.3.2-sdk\renpy\ui.py", line 301, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "D:\Escritorio\renpy-8.3.2-sdk\renpy\display\core.py", line 2215, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "D:\Escritorio\renpy-8.3.2-sdk\renpy\display\core.py", line 2879, in interact_core
-    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
-  File "D:\Escritorio\renpy-8.3.2-sdk\renpy\display\core.py", line 1381, in draw_screen
-    surftree = renpy.display.render.render_screen(
-  File "render.pyx", line 486, in renpy.display.render.render_screen
-  File "render.pyx", line 260, in renpy.display.render.render
-  File "D:\Escritorio\renpy-8.3.2-sdk\renpy\display\layout.py", line 903, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 260, in renpy.display.render.render
-  File "D:\Escritorio\renpy-8.3.2-sdk\renpy\display\layout.py", line 903, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 260, in renpy.display.render.render
-  File "D:\Escritorio\renpy-8.3.2-sdk\renpy\display\layout.py", line 903, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 260, in renpy.display.render.render
-  File "D:\Escritorio\renpy-8.3.2-sdk\renpy\display\screen.py", line 754, in render
-    child = renpy.display.render.render(self.child, w, h, st, at)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 260, in renpy.display.render.render
-  File "D:\Escritorio\renpy-8.3.2-sdk\renpy\display\layout.py", line 903, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 260, in renpy.display.render.render
-  File "D:\Escritorio\renpy-8.3.2-sdk\renpy\display\layout.py", line 1454, in render
-    surf = render(child,
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 260, in renpy.display.render.render
-  File "D:\Escritorio\renpy-8.3.2-sdk\renpy\display\layout.py", line 903, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 260, in renpy.display.render.render
-  File "D:\Escritorio\renpy-8.3.2-sdk\renpy\text\text.py", line 2540, in render
-    virtual_layout = Layout(self, width, height, renders, drawable_res=False, size_only=True)
-  File "D:\Escritorio\renpy-8.3.2-sdk\renpy\text\text.py", line 733, in __init__
-    self.paragraphs = self.segment(text.tokens, style, renders, text)
-  File "D:\Escritorio\renpy-8.3.2-sdk\renpy\text\text.py", line 1529, in segment
-    raise Exception("Unknown text tag %r" % text)
-Exception: Unknown text tag 'name'
-
-While processing text tag {name} in '¡Hola, {name}!'.:
-  File "game/day1.rpy", line 40, in script
-    web "¡Hola, {name}!"
-Exception: Unknown text tag 'name'
-Resetting cache.
-Early init took 123.10s
-Loading error handling took 0.02s
-Loading script took 0.10s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.03s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Dio\\AppData\\Roaming/RenPy/backups\\FindYourTrack':
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.05s
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.24s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 3050 Laptop GPU/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 565.90'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1458, 820) drawable=(1458, 820)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 225.35s
-Loading error handling took 0.01s
-Loading script took 0.13s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.03s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Dio\\AppData\\Roaming/RenPy/backups\\FindYourTrack':
-Dump and make backups took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.06s
 DPI scale factor: 1.250000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
@@ -243,7 +239,7 @@ Prepare screens took 0.06s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.01s
 Running _start took 0.00s
-Interface start took 0.03s
+Interface start took 0.06s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -253,140 +249,15 @@ Vendor: "b'NVIDIA Corporation'"
 Renderer: b'NVIDIA GeForce RTX 3050 Laptop GPU/PCIe/SSE2'
 Version: b'4.6.0 NVIDIA 565.90'
 Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1458, 820) drawable=(1458, 820)
+Screen sizes: virtual=(1280, 720) physical=(1452, 817) drawable=(1452, 817)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 648.82s
-Loading error handling took 0.01s
-Loading script took 0.13s
+Early init took 295.89s
+Loading error handling took 0.02s
+Loading script took 0.10s
 Loading save slot metadata took 0.03s
 Loading persistent took 0.00s
 Running init code took 0.03s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Dio\\AppData\\Roaming/RenPy/backups\\FindYourTrack':
-Dump and make backups took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.05s
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.25s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 3050 Laptop GPU/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 565.90'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1458, 820) drawable=(1458, 820)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 690.10s
-Loading error handling took 0.01s
-Loading script took 0.10s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.03s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.12s
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.28s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.02s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 3050 Laptop GPU/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 565.90'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1458, 820) drawable=(1458, 820)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 714.77s
-Loading error handling took 0.01s
-Loading script took 0.11s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Dio\\AppData\\Roaming/RenPy/backups\\FindYourTrack':
-Dump and make backups took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.06s
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.25s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 3050 Laptop GPU/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 565.90'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1458, 820) drawable=(1458, 820)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 718.02s
-Loading error handling took 0.02s
-Loading script took 0.11s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.04s
 Loading analysis data took 0.01s
 Analyze and compile ATL took 0.00s
 Reloading save slot metadata took 0.02s
@@ -410,7 +281,7 @@ Prepare screens took 0.06s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.01s
 Running _start took 0.00s
-Interface start took 0.03s
+Interface start took 0.06s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -420,7 +291,132 @@ Vendor: "b'NVIDIA Corporation'"
 Renderer: b'NVIDIA GeForce RTX 3050 Laptop GPU/PCIe/SSE2'
 Version: b'4.6.0 NVIDIA 565.90'
 Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1458, 820) drawable=(1458, 820)
+Screen sizes: virtual=(1280, 720) physical=(1451, 816) drawable=(1451, 816)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 409.73s
+Loading error handling took 0.02s
+Loading script took 0.11s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Dio\\AppData\\Roaming/RenPy/backups\\FindYourTrack':
+Dump and make backups took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.25s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 565.90'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1449, 815) drawable=(1449, 815)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 476.56s
+Loading error handling took 0.02s
+Loading script took 0.11s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Dio\\AppData\\Roaming/RenPy/backups\\FindYourTrack':
+Dump and make backups took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.27s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 565.90'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1449, 815) drawable=(1449, 815)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 482.27s
+Loading error handling took 0.02s
+Loading script took 0.10s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Dump and make backups took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.05s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.25s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 565.90'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1449, 815) drawable=(1449, 815)
 Maximum texture size: 4096x4096
 Cleaning stores took 0.00s
 Init translation took 0.00s

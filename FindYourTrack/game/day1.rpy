@@ -1,4 +1,4 @@
-
+define f = 0
 label cloud1:
     scene bg_redes with circlewipe
    
@@ -61,23 +61,68 @@ label webAndGeo1:
     p "(Trabajar con Sunny definitivamente será más relajado, aunque no sé si pueda ayudarme a pasar la materia tan bien como con geoGirl)."
     menu:
         '"Mappu"':
-            jump geoChosen 
+            geo "¿Quieres ir en MI equipo? Nunca te he visto trabajar bien, voy a decirle al profesor que te consiga otra pareja."
+            p "Ya no hay más gente libre. No nos queda de otra que trabajar juntos."
+            geo "..."
+            geo "¡Bien, pero tendrás que trabajar como yo te diga!"
+            p "Es eso o reprobar."
+            geo "Más te vale..." 
+            $ f = 1
         '"Sunny"':
-            jump webChosen
-label geoChosen:
-    geo "¿Quieres ir en MI equipo? Nunca te he visto trabajar bien, voy a decirle al profesor que te consiga otra pareja."
-    p "Ya no hay más gente libre. No nos queda de otra que trabajar juntos."
-    geo "..."
-    geo "¡Bien, pero tendrás que trabajar como yo te diga!"
-    p "Es eso o reprobar."
-    geo "Más te vale..."
-    jump continuation
-label webChosen:
-    web "¿Quieres ir en mi equipo? ¡Claro! Pero debes prometerme que ayudarás y no me dejarás todo el trabajo a mí."
-    p "Claro, necesito practicar para entender todo lo que no he aprendido en el semestre."
-    web "Genial, podemos repasar luego si quieres."
-    jump continuation
-label continuation:
+            web "¿Quieres ir en mi equipo? ¡Claro! Pero debes prometerme que ayudarás y no me dejarás todo el trabajo a mí."
+            p "Claro, necesito practicar para entender todo lo que no he aprendido en el semestre."
+            web "Genial, podemos repasar luego si quieres."
+            $ f = 0
     scene bg_mono_pasillo with circlewipe
-    
-
+    p "(Tengo mucho trabajo que hacer si quiero continuar la carrera. Sólo espero que una de las personas que acabo de conocer me ayude a aprobar)."
+    p "Espero que medio semestre sea suficiente..."
+    jump nextday
+label nextday:
+    scene bg_dormitorio with circlewipe
+    p "Ahora, creo que sería prudente decidir en qué enfocarme. No podría dar el mismo esfuerzo en tres materias distintas y mucho menos con cuatro personas distintas."
+    p "Mejor organizo mis ideas y me propongo en dar la mayor parte de mi energía a una persona."
+    p "Todas mis materias están en riesago, pero mejor salgo sobresaliente en una, por si acaso."
+    $ x = 0
+    if f == 1:
+        menu:
+            '"Debería intentar estudiar más con Claudia"':
+                p "Claudia es muy lista. Probablemente me convenga pedirle estudiar conmigo."
+                $ x = 0
+            '"Podría avanzar el proyecto con geoGirl"':
+                p "Me conviene adelantar el trabajo con ella. Sería menos tiempo que pasaré con ella."
+                $ x = 1
+            '"Ir con iotGirl suena a una buena idea"':
+                p "Es bastante lista, algo se me debería pegar."
+                $ x = 2
+            '"Tal vez Sunny sea la mejor opción"':
+                p "Es la más amigable de mis opciones, y estudiar con ella probablemente sea menos pesado."
+                $ x = 3
+            '"Mejor hago todo solo. Cómo no voy a poder"':
+                $ x = 4
+    else:
+        menu:
+            '"Debería intentar estudiar más con Claudia"':
+                p "Claudia es muy lista. Probablemente me convenga pedirle estudiar conmigo."
+                $ x = 0
+            '"Podría avanzar el proyecto con Sunny"':
+                p "Es la más amigable de mis opciones, y estudiar con ella probablemente sea menos pesado."
+                $ x = 3
+            '"Ir con iotGirl suena a una buena idea"':
+                p "Es bastante lista, algo se me debería pegar."
+                $ x = 2
+            '"Tal vez geoGirl sea la mejor opción"':
+                p "Por más molesta que sea, sabe mucho. Y de verdad necesito aprender."
+                $ x = 1
+            '"Mejor hago todo solo. Cómo no voy a poder"':
+                $ x = 4
+    scene bg_dormitorio with circlewipe
+    if x == 0:
+        jump cloud_dia2
+    elif x == 1: 
+        jump geoDay2
+    elif x == 2:
+        jump iotDay2
+    elif x == 3:
+        jump webDay2
+    else:
+        jump badEnding
