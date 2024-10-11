@@ -83,9 +83,10 @@ label nextday:
     p "Mejor organizo mis ideas y me propongo en dar la mayor parte de mi energía a una persona."
     p "Todas mis materias están en riesago, pero mejor salgo sobresaliente en una, por si acaso."
     $ x = 0
-    if geoF and webF and iotF and cloudF:
+    if persistent.geoF == True and persistent.webF == True and persistent.iotF == True and persistent.cloudF == True:
         menu:
-            'There is only one':
+            'T̷̢̛̪͔̘͓̆̎̿͒̽̍͛̎̈͊͆̍̊̕ͅH̴̛̹̩̻̭͓͙͍͙͊̌̈̽̂́̋̐͛̂͐͜e̷͚̊͐̾͑̓͛̓́͑͗̀̅̽ͅr̶̟͚͖̣̬͓͕͕̻̗̜̣̬̒̍͛̐̂̇̽̽̈́̒̇͑̒e̷̻͔̩̱̮̻̪͍̰̓ ̸̡̢̫̰͍͈̞̪̣̞̍̊͠i̴̖̘̗̥̫͆̃̏̍̓̉̃̎̕S̴̮̻͖̣̱̹̖͋̈́͒̓͗͋̀͒̓ͅ ̸̧̡̲̱̩̰̙͇̗̫͍̬͉̬̮̔̓̐̕͝o̶̥͈̳̺̺̱̙͇͈͕̗̯̦̽̌͒͗̽͂̔̕͝n̷̢̰̞͔̭͍̋͆̂͋͂̏̓̂̐̔̀͆̂͘ͅL̵̩̦̦̹̼̺̩̗͉͒̃ỳ̵̡̜̟͍̻̮͖͗͠ ̶̭̫̯͈̘̣͕̦̥͊̀̀̊̏͐͗̈́̈́̀̈͜͝͝O̷̹͓͐̾̇͌̈́̒͌͂n̷̺͎̩͕̰̝̥̙͈̊͑̇̊͗̅̓͂̈e̷͔̣͈̣͙͕̮͖̫͚̾̊̇̊͒̽̆̍́̍̀̎̕͜':
+                return
     elif f == 1:
         menu:
             '"Debería intentar estudiar más con Claudia"':
