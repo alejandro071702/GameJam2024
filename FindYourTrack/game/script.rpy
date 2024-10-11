@@ -30,6 +30,11 @@ transform slightright:
     yalign 1.0
 image towa_animated = Animation("images/towa front.png", 0.5, "images/towa side.png", 0.5)
 
+
+$ iotF = False
+$ geoF = False
+$ cloudF = False
+$ webF = False
 # $ renpy.music.register_channel(channel1, loop=True)
 # $ renpy.music.register_channel(channel2, loop=True)
 init:

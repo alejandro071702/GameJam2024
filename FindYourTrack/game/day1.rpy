@@ -83,7 +83,10 @@ label nextday:
     p "Mejor organizo mis ideas y me propongo en dar la mayor parte de mi energía a una persona."
     p "Todas mis materias están en riesago, pero mejor salgo sobresaliente en una, por si acaso."
     $ x = 0
-    if f == 1:
+    if geoF and webF and iotF and cloudF:
+        menu:
+            'T̷̢̛̪͔̘͓̆̎̿͒̽̍͛̎̈͊͆̍̊̕ͅH̴̛̹̩̻̭͓͙͍͙͊̌̈̽̂́̋̐͛̂͐͜e̷͚̊͐̾͑̓͛̓́͑͗̀̅̽ͅr̶̟͚͖̣̬͓͕͕̻̗̜̣̬̒̍͛̐̂̇̽̽̈́̒̇͑̒e̷̻͔̩̱̮̻̪͍̰̓ ̸̡̢̫̰͍͈̞̪̣̞̍̊͠i̴̖̘̗̥̫͆̃̏̍̓̉̃̎̕S̴̮̻͖̣̱̹̖͋̈́͒̓͗͋̀͒̓ͅ ̸̧̡̲̱̩̰̙͇̗̫͍̬͉̬̮̔̓̐̕͝o̶̥͈̳̺̺̱̙͇͈͕̗̯̦̽̌͒͗̽͂̔̕͝n̷̢̰̞͔̭͍̋͆̂͋͂̏̓̂̐̔̀͆̂͘ͅL̵̩̦̦̹̼̺̩̗͉͒̃ỳ̵̡̜̟͍̻̮͖͗͠ ̶̭̫̯͈̘̣͕̦̥͊̀̀̊̏͐͗̈́̈́̀̈͜͝͝O̷̹͓͐̾̇͌̈́̒͌͂n̷̺͎̩͕̰̝̥̙͈̊͑̇̊͗̅̓͂̈e̷͔̣͈̣͙͕̮͖̫͚̾̊̇̊͒̽̆̍́̍̀̎̕͜':
+    elif f == 1:
         menu:
             '"Debería intentar estudiar más con Claudia"':
                 p "Claudia es muy lista. Probablemente me convenga pedirle estudiar conmigo."
