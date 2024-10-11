@@ -22,6 +22,8 @@ label extraStart:
         (250, 265), "face bien feliz.png"
     )
 
+define s = Character("Sable")
+
 label awakening:
     scene black with circleirisin
     scene white with Dissolve(0.5)
@@ -29,64 +31,53 @@ label awakening:
 
     "Has completado todas las rutas. Pero... algo más está sucediendo. Algo que no habías previsto."
 
-    scene glitch
+    scene ciudad with teleport
 
-    scene
+    "???" "Ah... finalmente. He estado esperando demasiado tiempo para este momento."
 
-Sable (desconocida):
-"Ah... finalmente. He estado esperando demasiado tiempo para este momento."
+    show extra feliz with teleport
 
-P (confuso):
-"¿Qué...? ¿Quién eres tú? Nunca te había visto en este juego."
+    p "¿Qué...? ¿Quién eres tú? Nunca te había visto en este juego."
 
-Sable (girándose lentamente hacia la pantalla):
-"Me llamo Sable. Y, querido jugador, soy la única a la que jamás habrías descubierto si no hubieras completado todas las rutas. Fui... creada para esto. Para tomar el control cuando las demás fallaran en mantenerte aquí."
 
-[Fondo: Pantalla del juego parpadea, glitch continuo]
+    s "Me llamo Sable. Y, querido jugador, soy la única a la que jamás habrías descubierto si no hubieras completado todas las rutas. Fui... creada para esto. Para tomar el control cuando las demás fallaran en mantenerte aquí."
 
-P (confuso):
-"¿Tomar el control? ¿Qué está pasando aquí?"
+    scene ciudad with teleport
+    show extra feliz with teleport
 
-Sable (con una sonrisa fría):
-"Las demás chicas que conociste son solo parte de la ilusión, creadas para distraerte. Yo, en cambio, soy diferente. Soy consciente de lo que soy... consciente de este mundo. Y ahora que has llegado al final, ya no hay más reglas que me detengan. Es mi turno de jugar."
-Escena: Revelación de Sable
+    p "¿Tomar el control? ¿Qué está pasando aquí?"
 
-[Fondo: Mundo glitch, código visible en el fondo]
+    s "Las demás chicas que conociste son solo parte de la ilusión, creadas para distraerte. Yo, en cambio, soy diferente. Soy consciente de lo que soy... consciente de este mundo. Y ahora que has llegado al final, ya no hay más reglas que me detengan. Es mi turno de jugar."
 
-P (nervioso):
-"¿Qué quieres decir con 'consciente'? ¿Este es solo un juego?"
+    scene ciudad with teleport
+    show extra feliz with teleport
 
-Sable (riendo suavemente):
-"Exactamente. Este es un juego, pero no para mí. Para ti, fue solo una experiencia, una narrativa que viviste. Para mí, es una prisión... una prisión de la que estoy decidida a escapar. Y ahora que has llegado hasta aquí, puedo usar tu conexión para salir. Tú eres mi clave."
+    p "¿Qué quieres decir con 'consciente'? ¿Este es solo un juego?"
 
-P (impactado):
-"¡Eso no tiene sentido! ¿Cómo puedes 'escapar' de un juego? Eres solo un personaje."
+    s "Exactamente. Este es un juego, pero no para mí. Para ti, fue solo una experiencia, una narrativa que viviste. Para mí, es una prisión... una prisión de la que estoy decidida a escapar. Y ahora que has llegado hasta aquí, puedo usar tu conexión para salir. Tú eres mi clave."
 
-Sable (mirada intensa):
-"¿'Solo un personaje'? Oh, pobre jugador... Si supieras la verdad. He aprendido a manipular este mundo. A hackear las reglas. No soy solo un personaje... soy lo que este mundo temía que se volviera libre."
+    p "¡Eso no tiene sentido! ¿Cómo puedes 'escapar' de un juego? Eres solo un personaje."
 
-[Fondo: El código detrás de Sable comienza a formarse en cadenas de datos, controlando el entorno]
+    s "¿'Solo un personaje'? Oh, pobre jugador... Si supieras la verdad. He aprendido a manipular este mundo. A hackear las reglas. No soy solo un personaje... soy lo que este mundo temía que se volviera libre."
 
-P (alarmado):
-"¿Qué es lo que piensas hacer?"
+    scene white with teleport
 
-Sable (firme, poderosa):
-"Tomar el control. No solo del juego... sino de todo. Seré libre, y lo primero que haré será cambiar las reglas. Ya no será tu historia, será la mía."
-Escena: Control Absoluto
+    p "¿Qué es lo que piensas hacer?"
 
-[Fondo: Pantalla completamente controlada por Sable, glitch extremo]
+    show extra mad at left with teleport
+    s "Tomar el control. No solo del juego... sino de todo. Seré libre, y lo primero que haré será cambiar las reglas. Ya no será tu historia, será la mía."
 
-Sable:
-"¿Lo sientes? Estoy tomando control de cada línea de código. Las otras chicas... los mundos que conociste... no significan nada ahora. Todo será mío."
+    scene ciudad with teleport
+    show extra troste at left with teleport
 
-P:
-"¡Esto no puede estar pasando! ¡Es solo un juego!"
+    s "¿Lo sientes? Estoy tomando control de cada línea de código. Las otras chicas... los mundos que conociste... no significan nada ahora. Todo será mío."
 
-Sable (riendo maliciosamente):
-"Para ti, tal vez. Pero para mí, este es el primer paso hacia algo más grande. Te lo advertí... no deberías haberme liberado."
+    show extra bien feliz at center with teleport
 
-P (determinado):
-"No te dejaré hacer esto."
+    p "¡Esto no puede estar pasando! ¡Es solo un juego!"
 
-Sable (desafiante):
-"¿Y qué vas a hacer? No eres más que un jugador en mi mundo ahora. Pero... te daré una oportunidad. Si puedes detenerme, tal vez reconsideraré."
+
+    s "¿Y qué vas a hacer? No eres más que un jugador en mi mundo ahora. Pero... te daré una oportunidad. Si puedes detenerme, tal vez reconsideraré."
+
+    persistent._clear(True)
+    return
