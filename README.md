@@ -10,7 +10,7 @@ El protagonista, en un riesgo demasiado posible de reprobar y tener que darse de
 
 ## Objetivo
 
-El objetivo principal del juego es tomar el papel de Vato123 en su búsqueda por su titulación por medio del nuevo método implementado por la UASLP y la Facultad a razón de ayudar a sus alumnos del Área de Ciencias de la Computación a obtener estabilidad emocional y su título: conseguir novia. 	
+El objetivo principal del juego es tomar el papel de protagonista en su búsqueda por su titulación por medio del nuevo método implementado por la UASLP y la Facultad a razón de ayudar a sus alumnos del Área de Ciencias de la Computación a obtener estabilidad emocional y su título: conseguir novia. 	
 
 ## Controles
 
