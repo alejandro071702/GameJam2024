@@ -6,6 +6,8 @@
 
 ## Resumen
 
+El protagonista, en un riesgo demasiado posible de reprobar y tener que darse de baja, necesita la ayuda de una de cuatro monas chinas para pasar las materias que cursa, descubrir el área de énfasis que estudiará el próximo semestre, y tal vez socializar de una vez por todas.
+
 ## Objetivo
 
 El objetivo principal del juego es tomar el papel de Vato123 en su búsqueda por su titulación por medio del nuevo método implementado por la UASLP y la Facultad a razón de ayudar a sus alumnos del Área de Ciencias de la Computación a obtener estabilidad emocional y su título: conseguir novia. 	
