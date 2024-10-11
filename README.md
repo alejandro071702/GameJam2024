@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="300" height="300" src="https://raw.githubusercontent.com/alejandro071702/GameJam2024/refs/heads/main/FindYourTrack/game/images/Title%20Card.png">
+  <img width="800" height="312" src="https://raw.githubusercontent.com/alejandro071702/GameJam2024/refs/heads/main/FindYourTrack/game/images/Title%20Card.png">
 </p>
 <h1 align="center">Find Your Track</h1>
 
