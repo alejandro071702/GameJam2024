@@ -4,6 +4,8 @@
 
 # Find Your Track
 
+[![Ren'Py](https://img.shields.io/badge/Ren'Py-FF7F7F?logo=Renpy&logoColor=fff)](#)
+
 ## Resumen
 
 El protagonista, en un riesgo demasiado posible de reprobar y tener que darse de baja, necesita la ayuda de una de cuatro monas chinas para pasar las materias que cursa, descubrir el área de énfasis que estudiará el próximo semestre, y tal vez socializar de una vez por todas.
