@@ -1,3 +1,6 @@
 ./FindYourTrack/log.txt
+./FindYourTrack/game/saves/persistent
 *.rpyb
+*.rpyc
 *.save
+FindYourTrack/errors.txt

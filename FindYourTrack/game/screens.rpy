@@ -352,9 +352,11 @@ screen main_menu():
 
     ## Esto asegura que cualquier otra pantalla de menu es remplazada.
     tag menu
-
-    add gui.main_menu_background
-
+    # Set the background image
+    add "background_image.jpg" xalign 0.5 yalign 0.5
+    # Add your PNG image
+    add gui.main_menu_background xalign 0.5 yalign 0.5 size (1280, 720) 
+    add "Title Card.png" xalign 0.7 yalign 0.25
     ## Este marco vacío oscurece el menu principal.
     frame:
         style "main_menu_frame"
@@ -363,16 +365,14 @@ screen main_menu():
     ## real del menú principal está en la pantalla de navegación.
     use navigation
 
-    if gui.show_name:
+    #if gui.show_name:
 
-        vbox:
-            style "main_menu_vbox"
-
-            text "[config.name!t]":
-                style "main_menu_title"
-
-            text "[config.version]":
-                style "main_menu_version"
+    #    vbox:
+    #        style "main_menu_vbox"
+    #        text "[config.name!t]":
+    #            style "main_menu_title"
+    #        text "[config.version]":
+    #            style "main_menu_version"
 
 
 style main_menu_frame is empty
