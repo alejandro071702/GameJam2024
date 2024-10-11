@@ -12,8 +12,8 @@ label cloudtest:
     p 'Interesante… nunca lo había visto como algo tan versátil.'
 
 label dia_especial_explicacion:
-    scene nose_xd
-    show cloud feliz
+    scene bg_mono_salon
+    show cloud bien feliz
 
     p '(Hemos estado hablando de redes y la nube durante semanas, pero nunca le he preguntado a Cloud por qué eligió esta área. Parece que realmente le apasiona, y tal vez podría aprender algo más profundo de ella si simplemente le pregunto.)'
 
@@ -38,6 +38,8 @@ label dia_especial_explicacion:
     cloud '(asintiendo lentamente)'
     cloud 'Exacto. Piensa en la arquitectura en la nube como los cimientos de un edificio, pero en lugar de ladrillos y cemento, usamos servidores, almacenamiento y redes distribuidas globalmente. Es lo que permite que los recursos sean flexibles, escalables, y estén siempre disponibles para los usuarios sin importar dónde estén.'
 
+    show cloud feliz
+
     P '(interesado)'
     p 'Entonces, ¿todo se basa en eso? ¿Cómo organizas esos recursos?'
 
@@ -60,6 +62,8 @@ label dia_especial_explicacion:
     cloud '(mirando hacia ti, más abierta)'
     cloud 'Lo que me atrajo es cómo todo esto es adaptable y evolutivo. No es estático, cambia constantemente según las necesidades. Los servicios en la nube pueden crecer con las demandas del mercado. Las empresas no tienen que comprar servidores físicos o preocuparse por límites de almacenamiento; pueden simplemente ajustar lo que necesitan en tiempo real.'
 
+    show cloud bien feliz
+
     p '(sonriendo)'
     p'Es como tener un sistema que crece contigo.'
 
@@ -74,7 +78,9 @@ label dia_especial_explicacion:
 
     p '(sonriendo)'
     p 'Es inspirador. Tal vez haya algo en este mundo de la nube para mí después de todo.'
-    
+
+    show cloud feliz
+
     #Capítulo 8: Administración de Redes
     #scene Sala de redes del campus con pantallas mostrando tráfico de red
     p 'Veo que todo esto de la nube depende mucho de las redes. ¿Cómo administras una red tan grande?'
