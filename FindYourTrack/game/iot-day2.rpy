@@ -32,6 +32,7 @@ label iotDay2:
     $ HideInterface()
     scene black with circleirisoutfast
     hide iot molesto
+    "" " te noquearon "
     jump badEnding
     pause(4.0)
 #    $ renpy.movie_cutscene("intro.webm")
