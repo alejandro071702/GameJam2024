@@ -1,17 +1,17 @@
 # Coloca el código de tu juego en este archivo.
 
 # Characters
-define iot = Character('Chipi-Chan', color = "#BEA665")
+define iot = Character('Chipi-Chan', color = "#FFF")
 define cloud = Character('Nubeka', color = "#004B8B")
-define web = Character('S/N', color = "#000000")
-define geo = Character('Mappu', color = "#FFF")
+define geo = Character('Mappu', color = "#FBB900")
+define web = Character('Sunny', color = "#BEA665")
 
 #Narrator
 define narrator = Character(kind = nvl)
 
 #Player
 define p = Character('Vato123')
-
+define name = 'Vato123'
 # El juego comienza aquí.
 define circleirisin = ImageDissolve("imagedissolve circleiris.png", 1.0, 8 , reverse=True)
 define circleirisout = ImageDissolve("imagedissolve circleiris.png", 1.0, 8)
@@ -27,8 +27,10 @@ transform slightright:
     xalign 0.75
     yalign 1.0
 
-$ renpy.music.register_channel(channel1, loop=True)
-$ renpy.music.register_channel(channel2, loop=True)
+image towa_animated = Animation("images/towa front.png", 0.5, "images/towa side.png", 0.5)
+
+# $ renpy.music.register_channel(channel1, loop=True)
+# $ renpy.music.register_channel(channel2, loop=True)
 init:
     image cloud feliz = Composite(
         (600, 600),
@@ -44,25 +46,44 @@ init:
 
     image web feliz = Composite(
         (600, 600),
-        (0, 0), "mona2.png",
+        (0, 0), "mona3.png",
         (250, 265), "face feliz.png"
+    )
+
+    image web triste = Composite(
+        (600, 600),
+        (0, 0), "mona3.png",
+        (250, 265), "face troste.png"
+    )
+
+    image web muyfeliz = Composite(
+        (600, 600),
+        (0, 0), "mona3.png",
+        (250, 265), "face bien feliz.png"
+    )
+
+    image web molesto = Composite(
+        (600, 600),
+        (0, 0), "mona3.png",
+        (250, 265), "face molesto.png"
     )
 
     image geo feliz = Composite(
         (600, 600),
-        (0, 0), "mona3.png",
+        (0, 0), "mona2.png",
         (250, 265), "face feliz.png"
     )
 
 label char:
     scene micro-bg
-    show iot feliz
+    # show iot feliz
+    
     iot "Hola"
     return
 
 
 label start:
-    jump cloudtest
+    jump inicio
     return
 
 label showlogo:

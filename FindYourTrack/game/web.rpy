@@ -1,151 +1,151 @@
-# define web = Character('Sunny', color = "#BEA665")
 label webEvent_Project_start:
      jump webEvent_Project_Event_1
-
 
 label webEvent_Project_Event_1:     
      $ development = 0
      scene bg_mono_interfaces
      show web feliz
 
-     web "Thanks so much for doing this with me, [name]! I’ve been wanting to create something fun for ages, but, ahh... I keep getting lost in all my ideas!"
-     p "(She seems very excited but we are short in time.)"
+     web "¡Muchas gracias por hacer esto conmigo, [name]! Simpre he querido crear algo divertido, pero, ahh... ¡Siempre me pierdo en todas mis ideas!"
+     p "(Ella parece muy emocionada, pero estamos cortos de tiempo.)"
      
      menu:
-          "Let's narrow down the features":
+          "Vamos a reducir las características":
                $ development = development + 1
                jump webEvent_Project_GuideHerBack
-          "Your doodles are cute!":
+          "¡Tus dibujos son lindos!":
                jump webEvent_Project_EngageHerCreativity
 
 label webEvent_Project_2:
      scene black with circlewipe
-     "" "Some time later..."
+     # "" "Some time later..."
      scene bg_mono_interfaces with circlewipe
 
      show web feliz
-     web "Look we can add mascots here"
+     web "Mira, podemos agregar mascotas aquí"
      show web muyfeliz
-     web "And we can animate them too!"
+     web "¡Y también podemos animarlas!"
 
      menu:
-          "Bring her back to focus":
+          "Haz que vuelva a concentrarse":
                $ development = development + 1
                jump webEvent_Project_FocusBack
-          "Encourage her creative approach":
+          "Anímala a seguir su enfoque creativo":
                jump webEvent_Project_EncourageHer
      
 label webEvent_Project_3:
      scene black with circlewipe
-     "" "Some time later..."
+     # "" "Some time later..."
 
      if development < 1:
-          "" "The code starts falling behind and you start to notice some bugs cropping up in the development window"
+          "" "El código comienza a quedarse atrás y empiezas a notar algunos errores que aparecen en la ventana de desarrollo"
 
      scene bg_mono_interfaces with circlewipe
      show web feliz
 
      menu:
-          "Suggest correct errors":
+          "Sugiere corregir los errores":
                $ development = development + 1
                jump webEvent_Project_CorrectErrors
-          "Let her flow freely":
+          "Déjala fluir libremente":
                jump webEvent_Project_FlowFreely
 
 label webEvent_Project_Extra:
      scene black with circlewipe
-     "" "As you both try to test the app countless error pop-ups appear"
+     "" "Al intentar probar la aplicación, aparecen innumerables ventanas emergentes de error"
      scene bg_mono_interfaces with circlewipe
      show web triste
-     web "Oh no, I think we got a little too distracted..."
-     web "But at least it looks cute! Right? Heheh..."
-     web "Do you think people will like it? I don’t want to disappoint anyone."
+     web "Oh no, creo que nos distraímos un poco..."
+     show web feliz
+     web "¡Pero al menos se ve lindo! ¿Verdad? Jeje..."
+     show web triste
+     web "¿Crees que le gustará a la gente? No quiero decepcionar a nadie."
      menu:
-          "Reassure her":
+          "Mantener la calma":
                $ development = development + 1
                jump webEvent_Project_ReassureHer
-          "Loaf around":
+          "No darle importancia":
                jump webEvent_Project_LoafAround
 
 label webEvent_Project_4:
      scene black with circlewipe
      if development < 2:
-          "" '(The screen shows the app development phase ending, and a pop-up message appears: "App version: Unstable - Buggy and incomplete.")'
+          "" '(La pantalla muestra el final de la fase de desarrollo de la aplicación, y aparece un mensaje emergente: "Versión de la aplicación: Inestable - Con errores e incompleta.")'
      else:
-          "" '(The screen shows the app being successfully tested with minimal bugs, and a pop-up message appears: "App version: Stable - Ready for user testing!")'
+          "" '(La pantalla muestra la aplicación siendo probada con éxito y con errores mínimos, y aparece un mensaje emergente: "Versión de la aplicación: Estable - Lista para pruebas de usuario.")'
      
      if development < 2:
           show web triste
-          web "I don't think we have time to correct all the errors."
-          web "Everyone will be disapointed."
-          web "Sorry [name], could you leave me alone for a moment?."
+          web "No creo que tengamos tiempo para corregir todos los errores."
+          web "Todos estarán decepcionados."
+          web "Lo siento [name], ¿podrías dejarme sola por un momento?"
           scene black with Dissolve(1.0)
-          "" "You leave with a heavy atmosphere behind you."
+          "" "Te vas dejando una atmósfera pesada detrás de ti."
      else:
           show web muyfeliz
-          web "We did it! And it even works! Oh my gosh, I’m so happy!"
-          web "Thanks so much, [name]. I know I’m not the easiest to work with sometimes, but you really helped me stay on track. Do you think people will like it?"
+          web "¡Lo logramos! ¡Y hasta funciona! ¡Oh Dios mío, estoy tan feliz!"
+          web "Muchas gracias, [name]. Sé que a veces no soy la más fácil de trabajar, pero realmente me ayudaste a mantenerme enfocada. ¿Crees que a la gente le gustará?"
           show web feliz
-          p "I'm sure they'll love it."
+          p "Estoy seguro de que les encantará."
 
      return
 
 label webEvent_Project_GuideHerBack:
      # scene bg_mono_interfaces
-     p "Let's narrow down the features. We should focus on the core idea first."
+     p "Vamos a reducir las características. Deberíamos enfocarnos primero en la idea principal."
      show web molesto
      pause(1.0)
-     web "Hmm… yeah, you’re right. I tend to get carried away."
+     web "Hmm... sí, tienes razón. Tiendo a emocionarme demasiado."
      show web feliz
-     web "Okay! Let's focus on... the core mechanics! We’re doing a to-do list app, right? It needs to be helpful and..."
+     web "¡De acuerdo! Enfoquémonos en... ¡las mecánicas principales! Estamos haciendo una app de lista de tareas, ¿cierto? Tiene que ser útil y..."
      show web muyfeliz
-     web "Oh! And it should have cute icons!"
+     web "¡Oh! ¡Y debería tener íconos muy lindos!"
      jump webEvent_Project_2
      # return
 
 label webEvent_Project_EngageHerCreativity:
      # scene bg_mono_interfaces
      show web muyfeliz
-     web "Ohhh! I like that idea!"
+     web "¡Ohhh! ¡Me gusta esa idea!"
      show web feliz
-     web "What if the app had little characters that appear when you finish a task?"
-     web "They could cheer you on, like..."
+     web "¿Y si la app tuviera pequeños personajes que aparecieran cuando terminas una tarea?"
+     web "Te podrían animar, como..."
      show web muyfeliz
-     web "Yay! You did it!’"
+     web "¡Yay! ¡Lo lograste!"
      jump webEvent_Project_2
      # return
 
 label webEvent_Project_FocusBack:
-     p "That's a great addition! But let’s keep the code simple for now and add that later."
+     p "¡Es una gran adición! Pero mantengamos el código simple por ahora y lo agregamos después."
      if development > 1:
           show web triste
-          web "Ahh, I guess I’m doing it again, huh?"
+          web "Ahh, supongo que lo estoy haciendo de nuevo, ¿eh?"
           show web feliz
-          web "Okay, okay. Let’s stick to the essentials first."
+          web "Está bien, está bien. Enfoquémonos en lo esencial primero."
 
-     web "You know, I’m always worried about being too scattered..."
-     web "I’m glad you are here to make me focus more in the development"
-     p "Don’t worry about that right now. Let’s just finish this first version!"
+     web "Sabes, siempre me preocupa estar demasiado dispersa..."
+     web "Me alegra que estés aquí para ayudarme a concentrarme más en el desarrollo."
+     p "No te preocupes por eso ahora. ¡Vamos a terminar esta primera versión!"
      jump webEvent_Project_3
 
 label webEvent_Project_EncourageHer:
-     p "I like the mascots. Let’s see how they’d look in the app!"
+     p "Me gustan las mascotas. ¡Veamos cómo se verían en la app!"
      show web muyfeliz
-     web "Eee, you really think so? That would make the app so cute!"
+     web "¡Eh, ¿de verdad crees eso? Eso haría que la app fuera tan linda!"
      jump webEvent_Project_3
 
 label webEvent_Project_CorrectErrors:
-     p "Maybe we should handle these bugs first?"
-     web "What bugs?"
-     "" "You show her the app log with multiple alerts and errors"
+     p "¿Quizás deberíamos encargarnos de estos errores primero?"
+     web "¿Qué errores?"
+     "" "Le muestras el registro de la aplicación con múltiples alertas y errores."
 
      show web triste
-     web "What!?"
-     web "I didnt notice"
+     web "¡¿Qué?!"
+     web "No me di cuenta."
 
-     p "Its okay. We can fix them"
+     p "Está bien. Podemos arreglarlos."
      show web feliz
-     web "Yeah, you are right"
+     web "Sí, tienes razón."
 
      if development < 2:
           jump webEvent_Project_Extra
@@ -154,7 +154,7 @@ label webEvent_Project_CorrectErrors:
 
 label webEvent_Project_FlowFreely:
      if development < 2:
-          p "(We can always clean it up later)"
+          p "(Siempre podemos limpiar todo más tarde)"
 
      if development < 2:
           jump webEvent_Project_Extra
@@ -162,17 +162,17 @@ label webEvent_Project_FlowFreely:
           jump webEvent_Project_4
 
 label webEvent_Project_ReassureHer:
-     p "We can still fix it. There is no need to worry."
+     p "Podemos arreglarlo. No hay necesidad de preocuparse."
      show web feliz
-     web "Yeah you are right"
+     web "Sí, tienes razón."
 
      jump webEvent_Project_4
 
 label webEvent_Project_LoafAround:
-     p "It needs more work, but we’re still learning"
-     p "Let’s just enjoy the process"
+     p "Necesita más trabajo, pero aún estamos aprendiendo."
+     p "Disfrutemos del proceso."
      show web molesto
-     web "I'm not sure but i'll trust you"
+     web "No estoy seguro, pero confiaré en ti."
 
      jump webEvent_Project_4
 
