@@ -15,9 +15,11 @@ define name = 'Vato123'
 # El juego comienza aquí.
 define circleirisin = ImageDissolve("imagedissolve circleiris.png", 1.0, 8 , reverse=True)
 define circleirisout = ImageDissolve("imagedissolve circleiris.png", 1.0, 8)
+define circleirisoutfast = ImageDissolve("imagedissolve circleiris.png", 0.5, 8)
 define circlewipe = ImageDissolve("imagedissolve circlewipe.png", 1.0, 8)
 define sl_easein = MoveTransition(0.5, enter=offscreenleft, enter_time_warp=_warper.easein)
 define sr_easein = MoveTransition(0.5, enter=offscreenright, enter_time_warp=_warper.easein)
+
 
 transform slightleft:
     xalign 0.25
@@ -72,7 +74,26 @@ init:
         (0, 0), "mona2.png",
         (250, 265), "face feliz.png"
     )
-
+    image iot feliz = Composite(
+        (600, 600),
+        (0, 0), "mona4.png",
+        (250, 265), "face feliz.png"
+    )
+    image iot bien feliz = Composite(
+        (600, 600),
+        (0, 0), "mona4.png",
+        (250, 265), "face bien feliz.png"
+    )
+    image iot molesto = Composite(
+        (600, 600),
+        (0, 0), "mona4.png",
+        (250, 275), "face molesto.png"
+    )
+    image iot troste = Composite(
+        (600, 600),
+        (0, 0), "mona4.png",
+        (250, 265), "face troste.png"
+    )
 label char:
     scene micro-bg
     show iot feliz
@@ -81,7 +102,8 @@ label char:
 
 
 label start:
-    jump epilogue_logo
+    jump iotDay2
+    jump inicio 
     return
 
 label showlogo:
