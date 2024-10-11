@@ -102,6 +102,7 @@ label inicio:
     p "Espero que pueda tomar una decisión para el final de este semestre..."
 
     scene bg_mono_pasillo with Dissolve(0.5)
+    show alpha_filter
     p "Aunque, antes de eso… tal vez ni siquiera alcance a pasar este semestre. Llevo la mitad del sexto semestre reprobando todas las materias. "
     p "Al menos mantengo la esperanza de recuperarme los siguientes parciales."
     p "Estoy completamente seguro que no podré titularme a este paso."
@@ -158,39 +159,44 @@ label iot1:
     return
 label interfaces1:
     scene bg_mono_pasillo with circle
-	[show webGirl]
-	webGirl: ¡Hola, {name}!
-	Player: (webGirl. Es así de amigable con todos los que se encuentra. Al menos eso es lo que he visto)
-	webGirl: ¿Hiciste el ejercicio de ayer? Yo no estoy seguro de qué tan bien me quedó. ¿Puedo compararlo con el tuyo?
-	Player: No, olvidé terminarlo.
-	webGirl: Cómo crees. ¿Qué vas a hacer, entonces?
-	Player: No sé, copiarlo de algún lado.
-	geoGirl: ¡No, no copies su tarea!
-	[show geoGirl]
-	geoGirl: Si haces eso, no vas a aprender nada. Mejor intenta hacerla después de decirle al profesor.
-	Player: (geoGirl. Demasiado molesta para su propio bien).
-	(Estudiamos en la misma escuela desde la secundaria y los únicos recuerdos que tengo de ella son cuando se quejaba con los profesores.)
-	geoGirl: Te puedo ayudar a hacer la tarea. Sólo tienes que pedírmelo la próxima vez.
-	Player: (Por más insoportable que pueda ser, no puedo rechazar su oferta. Necesito pasar esta materia).
-Profesor: Así tiene que quedar su proyecto. Es en equipos, escojan bien con quién se juntan para evitar pleitos.
-Player: (Me lleva. También necesito recuperarme en esta materia (vaya sorpresa), debo elegir bien, y creo que sólo tengo dos opciones).
-	(geoGirl. El trabajo definitivamente será más tedioso, pero al menos juntarme con ella asegura que saldrá).
-	(webGirl. Definitivamente será más relajado, aunque no sé si pueda ayudarme a pasar la materia tan bien como con geoGirl).
-Opcion:
-	1) geoGirl
-	2) webGirl
+    show web bien feliz at left with sr_easein at z
+    web "¡Hola, {name}!"
+    p "(webGirl. Es así de amigable con todos los que se encuentra. Al menos eso es lo que he visto)"
+    web "¿Hiciste el ejercicio de ayer? Yo no estoy seguro de qué tan bien me quedó. ¿Puedo compararlo con el tuyo?"
+    p "No, olvidé terminarlo."
+    web "Cómo crees. ¿Qué vas a hacer, entonces?"
+    p "No sé, copiarlo de algún lado."
+    geo "¡No, no copies su tarea!"
+    show geo molesto at right with sl_easein
+    geo "Si haces eso, no vas a aprender nada. Mejor intenta hacerla después de decirle al profesor."
+    show alpha_filter behind geo
+    show web behind alpha_filter
+    
+    hide web 
+
+    p "(geoGirl. Demasiado molesta para su propio bien)."
+    p "(Estudiamos en la misma escuela desde la secundaria y los únicos recuerdos que tengo de ella son cuando se quejaba con los profesores.)"
+    geo "Te puedo ayudar a hacer la tarea. Sólo tienes que pedírmelo la próxima vez."
+    p "(Por más insoportable que pueda ser, no puedo rechazar su oferta. Necesito pasar esta materia)."
+    "Profesor" "Así tiene que quedar su proyecto. Es en equipos, escojan bien con quién se juntan para evitar pleitos."
+    p "(Me lleva. También necesito recuperarme en esta materia (vaya sorpresa), debo elegir bien, y creo que sólo tengo dos opciones)."
+    """(geoGirl. El trabajo definitivamente será más tedioso, pero al menos juntarme con ella asegura que saldrá).
+    (webGirl. Definitivamente será más relajado, aunque no sé si pueda ayudarme a pasar la materia tan bien como con geoGirl).
+    Opcion:
+    1) geoGirl
+    2) webGirl
 1)
-	geoGirl: ¿Quieres ir en MI equipo? Nunca te he visto trabajar bien, voy a decirle al profesor que te consiga otra pareja.
-	Player: Ya no hay más gente libre. No nos queda de otra que trabajar juntos.
-	geoGirl: ...
-		¡Bien, pero tendrás que trabajar como yo te diga!
-	Player: Es eso o reprobar.
-	geoGirl: Más te vale...
-2) 
-	webGirl: ¿Quieres ir en mi equipo? ¡Claro! Pero debes prometerme que ayudarás y no me dejarás todo el trabajo a mí.
-	Player: Claro, necesito practicar para entender todo lo que no he aprendido en el semestre.
-	webGirl: Genial, podemos repasar luego si quieres.
-[Fondo: pasillo]
+    geoGirl: ¿Quieres ir en MI equipo? Nunca te he visto trabajar bien, voy a decirle al profesor que te consiga otra pareja.
+    Player: Ya no hay más gente libre. No nos queda de otra que trabajar juntos.
+    geoGirl: ...
+        ¡Bien, pero tendrás que trabajar como yo te diga!
+    Player: Es eso o reprobar.
+    geoGirl: Más te vale... 
+    2) 
+    webGirl: ¿Quieres ir en mi equipo? ¡Claro! Pero debes prometerme que ayudarás y no me dejarás todo el trabajo a mí.
+    Player: Claro, necesito practicar para entender todo lo que no he aprendido en el semestre.
+    webGirl: Genial, podemos repasar luego si quieres.
+    #Fondo: pasillo]
 
 
 label example:
