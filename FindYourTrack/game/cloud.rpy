@@ -181,6 +181,7 @@ label cloud_dia3:
 
     p '(pensando)'
     p '(Al final, me decidí por especializarme en computación en la nube. Todo lo que aprendí con Cloud durante el semestre me hizo darme cuenta de que este es el área en la que quiero desarrollarme. Cloud y yo trabajamos juntos durante todo el curso, y ahora, con suerte, seguiremos colaborando en el futuro. Este semestre fue clave para tomar esta decisión, y no puedo esperar a ver lo que vendrá a continuación.)'
+    jump epilogue_cloud
 
 
 

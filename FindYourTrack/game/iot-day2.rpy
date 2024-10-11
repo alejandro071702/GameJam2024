@@ -32,9 +32,12 @@ label iotDay2:
     $ HideInterface()
     scene black with circleirisoutfast
     hide iot molesto
-#    jump badEnding
+    "" " te noquearon "
+    jump badEnding
+    $ persistent.iotF = True
+    $ renpy.save_persistent()
     pause(4.0)
-    $ renpy.movie_cutscene("intro.webm")
+#    $ renpy.movie_cutscene("intro.webm")
     return
             
 

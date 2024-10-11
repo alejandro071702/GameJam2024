@@ -30,6 +30,11 @@ transform slightright:
     yalign 1.0
 image towa_animated = Animation("images/towa front.png", 0.5, "images/towa side.png", 0.5)
 
+
+default persistent.iotF = False
+default persistent.geoF = False
+default persistent.cloudF = False
+default persistent.webF = False
 # $ renpy.music.register_channel(channel1, loop=True)
 # $ renpy.music.register_channel(channel2, loop=True)
 init:
@@ -123,6 +128,16 @@ label char:
 label start:
     # jump for testing. Uncomment and change label to use it    
     #jump iotDay2
+    if persistent.geoF == True:
+        "Geo"
+    if persistent.cloudF == True:
+        "Cloud"
+    if persistent.iotF == True:
+        "Iot"
+    if persistent.webF == True:
+        "Web"
+    pause(3.0)
+
     jump inicio 
     return
 
