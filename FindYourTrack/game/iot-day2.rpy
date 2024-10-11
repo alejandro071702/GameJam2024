@@ -34,6 +34,8 @@ label iotDay2:
     hide iot molesto
     "" " te noquearon "
     jump badEnding
+    $ persistent.iotF = True
+    $ renpy.save_persistent()
     pause(4.0)
 #    $ renpy.movie_cutscene("intro.webm")
     return
