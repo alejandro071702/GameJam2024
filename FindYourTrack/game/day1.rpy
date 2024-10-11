@@ -25,7 +25,7 @@ label iot1:
     scene bg_mono_micro
     show iot feliz with sl_easein
     iot "Oye, vas en mi equipo para la práctica. Ponte a programar esto."
-    p "(iotGirl. Suele pedirme que haga cosas para las prácticas, y yo sólo obedezco sin importar qué me pida.)"
+    p "(Chipi-chan. Suele pedirme que haga cosas para las prácticas, y yo sólo obedezco sin importar qué me pida.)"
     p "(Ambos sabemos que hubiera reprobado sin oportunidad de recuperarme desde el principio si no fuera porque me trae de acá para allá para las prácticas y añade mi nombre en los reportes)."
     p "(Gracias a ella es que esta es la única materia que no voy reprobando.)"
     scene bg_mono_micro with circlewipe
@@ -50,15 +50,15 @@ label webAndGeo1:
     geo "Si haces eso, no vas a aprender nada. Mejor intenta hacerla después de decirle al profesor."
     show alpha_filter behind geo
     show web behind alpha_filter
-    p "(geoGirl. Demasiado molesta para su propio bien)."
+    p "(Mappu. Demasiado molesta para su propio bien)."
     p "(Estudiamos en la misma escuela desde la secundaria y los únicos recuerdos que tengo de ella son cuando se quejaba con los profesores.)"
     hide alpha_filter
     geo "Te puedo ayudar a hacer la tarea. Sólo tienes que pedírmelo la próxima vez."
     p "(Por más insoportable que pueda ser, no puedo rechazar su oferta. Necesito pasar esta materia)."
     "Profesor" "Así tiene que quedar su proyecto. Es en equipos, escojan bien con quién se juntan para evitar pleitos."
     p "(Me lleva. También necesito recuperarme en esta materia (vaya sorpresa), debo elegir bien, y creo que sólo tengo dos opciones)."
-    p "(geoGirl. El trabajo definitivamente será más tedioso, pero al menos juntarme con ella asegura que saldrá)."
-    p "(Trabajar con Sunny definitivamente será más relajado, aunque no sé si pueda ayudarme a pasar la materia tan bien como con geoGirl)."
+    p "(Mappu. El trabajo definitivamente será más tedioso, pero al menos juntarme con ella asegura que saldrá)."
+    p "(Trabajar con Sunny definitivamente será más relajado, aunque no sé si pueda ayudarme a pasar la materia tan bien como con Mappu)."
     menu:
         '"Mappu"':
             geo "¿Quieres ir en MI equipo? Nunca te he visto trabajar bien, voy a decirle al profesor que te consiga otra pareja."
@@ -88,10 +88,10 @@ label nextday:
             '"Debería intentar estudiar más con Claudia"':
                 p "Claudia es muy lista. Probablemente me convenga pedirle estudiar conmigo."
                 $ x = 0
-            '"Podría avanzar el proyecto con geoGirl"':
+            '"Podría avanzar el proyecto con Mappu"':
                 p "Me conviene adelantar el trabajo con ella. Sería menos tiempo que pasaré con ella."
                 $ x = 1
-            '"Ir con iotGirl suena a una buena idea"':
+            '"Ir con Chipi-chan suena a una buena idea"':
                 p "Es bastante lista, algo se me debería pegar."
                 $ x = 2
             '"Tal vez Sunny sea la mejor opción"':
@@ -107,10 +107,10 @@ label nextday:
             '"Podría avanzar el proyecto con Sunny"':
                 p "Es la más amigable de mis opciones, y estudiar con ella probablemente sea menos pesado."
                 $ x = 3
-            '"Ir con iotGirl suena a una buena idea"':
+            '"Ir con Chipi-chan suena a una buena idea"':
                 p "Es bastante lista, algo se me debería pegar."
                 $ x = 2
-            '"Tal vez geoGirl sea la mejor opción"':
+            '"Tal vez Mappu sea la mejor opción"':
                 p "Por más molesta que sea, sabe mucho. Y de verdad necesito aprender."
                 $ x = 1
             '"Mejor hago todo solo. Cómo no voy a poder"':
