@@ -1,17 +1,17 @@
 ﻿# Coloca el código de tu juego en este archivo.
 
 # Characters
-define iot = Character('Chipi-Chan', color = "#BEA665")
+define iot = Character('Chipi-Chan', color = "#FFF")
 define cloud = Character('Nubeka', color = "#004B8B")
-define web = Character('S/N', color = "#000000")
-define geo = Character('Mappu', color = "#FFF")
+define web = Character('Sunny', color = "#FBB900")
+define geo = Character('Mappu', color = "#BEA665")
 
 #Narrator
 define narrator = Character(kind = nvl)
 
 #Player
 define p = Character('Vato123')
-
+define name = 'Vato123'
 # El juego comienza aquí.
 define circleirisin = ImageDissolve("imagedissolve circleiris.png", 1.0, 8 , reverse=True)
 define circleirisout = ImageDissolve("imagedissolve circleiris.png", 1.0, 8)
@@ -48,6 +48,24 @@ init:
         (250, 265), "face feliz.png"
     )
 
+    image web triste = Composite(
+        (600, 600),
+        (0, 0), "mona2.png",
+        (250, 265), "face triste.png"
+    )
+
+    image web muyfeliz = Composite(
+        (600, 600),
+        (0, 0), "mona2.png",
+        (250, 265), "face bien feliz.png"
+    )
+
+    image web molesto = Composite(
+        (600, 600),
+        (0, 0), "mona2.png",
+        (250, 265), "face molesto.png"
+    )
+
     image geo feliz = Composite(
         (600, 600),
         (0, 0), "mona3.png",
@@ -62,7 +80,7 @@ label char:
     return
 
 label start:
-    jump cloudtest
+    jump webEvent_Project_start
     return
 
 label showlogo:

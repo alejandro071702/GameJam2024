@@ -1,22 +1,41 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 84, in script
-    jump webEvent_Project
-ScriptError: could not find label 'webEvent_Project'.
+  File "game/web.rpy", line 11, in script
+    web "Thanks so much for doing this with me, [name]! I’ve been wanting to create something fun for ages, but, ahh... I keep getting lost in all my ideas!"
+NameError: name 'name' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 84, in script
-    jump webEvent_Project
-  File "C:\Users\franc\Documents\renpy-8.3.2-sdk\renpy\ast.py", line 1699, in execute
-    rv = renpy.game.script.lookup(target)
-  File "C:\Users\franc\Documents\renpy-8.3.2-sdk\renpy\script.py", line 1103, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'webEvent_Project'.
+  File "game/web.rpy", line 11, in script
+    web "Thanks so much for doing this with me, [name]! I’ve been wanting to create something fun for ages, but, ahh... I keep getting lost in all my ideas!"
+  File "C:\Users\franc\Documents\renpy-8.3.2-sdk\renpy\ast.py", line 2573, in execute
+    Say.execute(self)
+  File "C:\Users\franc\Documents\renpy-8.3.2-sdk\renpy\ast.py", line 615, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "C:\Users\franc\Documents\renpy-8.3.2-sdk\renpy\exports\sayexports.py", line 132, in say
+    who(what, *args, **kwargs)
+  File "C:\Users\franc\Documents\renpy-8.3.2-sdk\renpy\character.py", line 1440, in __call__
+    what = self.prefix_suffix("what", self.what_prefix, what, self.what_suffix)
+  File "C:\Users\franc\Documents\renpy-8.3.2-sdk\renpy\character.py", line 1354, in prefix_suffix
+    return (sub(prefix) + sub(body) + sub(suffix))
+  File "C:\Users\franc\Documents\renpy-8.3.2-sdk\renpy\character.py", line 1334, in sub
+    return renpy.substitutions.substitute(s, scope=scope, force=force, translate=translate)[0]
+  File "C:\Users\franc\Documents\renpy-8.3.2-sdk\renpy\substitutions.py", line 373, in substitute
+    s = interpolate(s, variables) # type: ignore
+  File "C:\Users\franc\Documents\renpy-8.3.2-sdk\renpy\substitutions.py", line 86, in interpolate
+    raise e
+  File "C:\Users\franc\Documents\renpy-8.3.2-sdk\renpy\substitutions.py", line 78, in interpolate
+    value = renpy.python.py_eval(code, {}, scope)
+  File "C:\Users\franc\Documents\renpy-8.3.2-sdk\renpy\python.py", line 1209, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\franc\Documents\renpy-8.3.2-sdk\renpy\python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "<none>", line 1, in <module>
+NameError: name 'name' is not defined
 
 Windows-10-10.0.19041 AMD64
 Ren'Py 8.3.2.24090902
 FindYourTrack 1.0
-Thu Oct 10 20:34:10 2024
+Thu Oct 10 22:40:54 2024
