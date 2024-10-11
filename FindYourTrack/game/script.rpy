@@ -27,8 +27,10 @@ transform slightright:
     xalign 0.75
     yalign 1.0
 
-$ renpy.music.register_channel(channel1, loop=True)
-$ renpy.music.register_channel(channel2, loop=True)
+image towa_animated = Animation("images/towa front.png", 0.5, "images/towa side.png", 0.5)
+
+# $ renpy.music.register_channel(channel1, loop=True)
+# $ renpy.music.register_channel(channel2, loop=True)
 init:
     image cloud feliz = Composite(
         (600, 600),
@@ -75,7 +77,8 @@ init:
 
 label char:
     scene micro-bg
-    show iot feliz
+    # show iot feliz
+    
     iot "Hola"
     return
 
