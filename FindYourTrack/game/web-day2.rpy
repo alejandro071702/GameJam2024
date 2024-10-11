@@ -36,3 +36,5 @@ label webDay2:
     p "(No me interesaba para nada esa área, pero ella lo hace ver interesante)"
     "" "..."
     p "(Nos quedamos un par de horas hablando, fue muy intrigante conocer más acerca del área de desarrollo web. Tampoco había notado lo linda que se ve hablando de lo que la apasiona)"
+
+    jump webDay3

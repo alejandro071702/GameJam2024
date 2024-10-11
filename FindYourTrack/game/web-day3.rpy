@@ -1,4 +1,5 @@
 label webDay3:
+   scene bg_biblioteca with circleirisin 
    p "(Terminé mis examenes finales del semestre, estuvieron complicados, pero se logró con mucha fe. Dudo de pasar todas mis materias, los últimos días las dejé de lado por enfocarme más en Interfaces Gráficas, ya que necesito aprobar esta materia para poder estudiar el área de desarrollo web)."
    show web bien feliz
    web "¡Hola! ¿Cómo te fue en tus exámenes?"

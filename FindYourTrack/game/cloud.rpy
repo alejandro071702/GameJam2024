@@ -12,7 +12,7 @@ label cloudtest:
     p 'Interesante… nunca lo había visto como algo tan versátil.'
 
     #scene Laboratorio de simulación de redes
-    scene bg_redes
+    scene bg_redes with circleirisout
     p '¿Qué es lo que se hace en este laboratorio? Parece diferente a los otros.'
     show cloud bien feliz
     cloud 'Este es el laboratorio de simulación de redes. Aquí modelamos redes complejas para entender su comportamiento antes de implementarlas en la realidad. Usamos software de simulación para ver cómo funcionarán las redes bajo diferentes condiciones, como tráfico alto o fallos en los routers.'
