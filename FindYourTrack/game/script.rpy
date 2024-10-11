@@ -1,17 +1,16 @@
 ﻿# Coloca el código de tu juego en este archivo.
 
 # Characters
-define iot = Character('Chipi-Chan', color = "#000")
+define iot = Character('Chipi-Chan', color = "#BEA665")
 define cloud = Character('Nubeka', color = "#004B8B")
-define web = Character('Sunny', color = "#BEA665")
-define geo = Character('Mappu', color = "#FBB900")
+define web = Character('S/N', color = "#000000")
+define geo = Character('Mappu', color = "#FFF")
 
 #Narrator
 define narrator = Character(kind = nvl)
 
 #Player
 define p = Character('Vato123')
-define name = "Vato123"
 
 # El juego comienza aquí.
 define circleirisin = ImageDissolve("imagedissolve circleiris.png", 1.0, 8 , reverse=True)
@@ -37,15 +36,9 @@ init:
         (250, 265), "face feliz.png"
     )
 
-    image web feliz = Composite(
+    image cloud bien feliz = Composite(
         (600, 600),
-        (0, 0), "mona2.png",
-        (250, 265), "face feliz.png"
-    )
-
-    image web muyfeliz = Composite(
-        (600, 600),
-        (0, 0), "mona2.png",
+        (0, 0), "mona1.png",
         (250, 265), "face bien feliz.png"
     )
 
@@ -53,18 +46,6 @@ init:
         (600, 600),
         (0, 0), "mona2.png",
         (250, 265), "face feliz.png"
-    )
-
-    image web triste = Composite(
-        (600, 600),
-        (0, 0), "mona2.png",
-        (250, 265), "face troste.png"
-    )
-
-    image web molesto = Composite(
-        (600, 600),
-        (0, 0), "mona2.png",
-        (250, 275), "face molesto.png"
     )
 
     image geo feliz = Composite(
@@ -81,7 +62,7 @@ label char:
     return
 
 label start:
-    jump webEvent_Project_start
+    jump cloudtest
     return
 
 label showlogo:
