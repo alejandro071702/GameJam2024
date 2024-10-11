@@ -1,4 +1,4 @@
-﻿# Coloca el código de tu juego en este archivo.
+# Coloca el código de tu juego en este archivo.
 
 # Characters
 define iot = Character('Chipi-Chan', color = "#BEA665")
@@ -54,12 +54,12 @@ init:
         (250, 265), "face feliz.png"
     )
 
-
 label char:
     scene micro-bg
     show iot feliz
     iot "Hola"
     return
+
 
 label start:
     jump cloudtest
@@ -74,7 +74,7 @@ label inicio:
     scene black with Dissolve(0.5)
     python:
         name = renpy.input("What's your name?")
-        name = name.strip() or "Vato123"
+        name = name.strip() or "Player"
         p = Character("[name]", color = "#FFF")
     
     p "Llevo cinco semestres estudiando una Ingeniería en Computación y no tengo ni la menor idea de lo que estoy haciendo."

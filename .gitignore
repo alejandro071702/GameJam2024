@@ -1,3 +1,4 @@
 ./FindYourTrack/log.txt
 *.rpyb
 *.save
+FindYourTrack/errors.txt

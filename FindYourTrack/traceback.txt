@@ -1,22 +1,48 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While running game code:
-  File "game/script.rpy", line 84, in script
-    jump webEvent_Project
-ScriptError: could not find label 'webEvent_Project'.
+After initialization, but before game start.
+  File "game/screens.rpy", line 351, in analyze_screen
+    screen main_menu():
+  File "game/screens.rpy", line 351, in analyze
+    screen main_menu():
+  File "game/screens.rpy", line 351, in analyze
+    screen main_menu():
+  File "game/screens.rpy", line 369, in analyze
+    if !gui.show_name:
+SyntaxError: invalid syntax (game/screens.rpy, line 369)
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 84, in script
-    jump webEvent_Project
-  File "C:\Users\franc\Documents\renpy-8.3.2-sdk\renpy\ast.py", line 1699, in execute
-    rv = renpy.game.script.lookup(target)
-  File "C:\Users\franc\Documents\renpy-8.3.2-sdk\renpy\script.py", line 1103, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'webEvent_Project'.
+  File "D:\Escritorio\renpy-8.3.2-sdk\renpy\bootstrap.py", line 359, in bootstrap
+    renpy.main.main()
+  File "D:\Escritorio\renpy-8.3.2-sdk\renpy\main.py", line 652, in main
+    run(restart)
+  File "D:\Escritorio\renpy-8.3.2-sdk\renpy\main.py", line 86, in run
+    renpy.display.screen.analyze_screens()
+  File "D:\Escritorio\renpy-8.3.2-sdk\renpy\display\screen.py", line 996, in analyze_screens
+    s.ast.analyze_screen()
+  File "game/screens.rpy", line 351, in analyze_screen
+    screen main_menu():
+  File "game/screens.rpy", line 351, in analyze
+    screen main_menu():
+  File "game/screens.rpy", line 351, in analyze
+    screen main_menu():
+  File "game/screens.rpy", line 369, in analyze
+    if !gui.show_name:
+  File "D:\Escritorio\renpy-8.3.2-sdk\renpy\py3analysis.py", line 559, in is_constant_expr
+    node, literal = ccache.ast_eval_literal(expr)
+  File "D:\Escritorio\renpy-8.3.2-sdk\renpy\py3analysis.py", line 785, in ast_eval_literal
+    expr = py_compile(expr, 'eval', ast_node=True)
+  File "D:\Escritorio\renpy-8.3.2-sdk\renpy\python.py", line 1144, in py_compile
+    raise e
+  File "D:\Escritorio\renpy-8.3.2-sdk\renpy\python.py", line 1081, in py_compile
+    raise orig_e
+  File "D:\Escritorio\renpy-8.3.2-sdk\renpy\python.py", line 1073, in py_compile
+    tree = compile(source, filename, py_mode, ast.PyCF_ONLY_AST | flags, 1)
+SyntaxError: invalid syntax (game/screens.rpy, line 369)
 
 Windows-10-10.0.19041 AMD64
 Ren'Py 8.3.2.24090902
 FindYourTrack 1.0
-Thu Oct 10 20:34:10 2024
+Thu Oct 10 23:26:58 2024
