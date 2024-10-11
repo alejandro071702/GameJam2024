@@ -11,11 +11,11 @@ label cloudtest:
     cloud 'Exactamente. Es flexible y permite que las empresas crezcan sin tener que invertir en infraestructura física. Además, la nube distribuye los recursos en múltiples ubicaciones, lo que significa que puedes acceder a ellos desde casi cualquier parte del mundo.'
     p 'Interesante… nunca lo había visto como algo tan versátil.'
 
-label dia_especial_explicacion:
+label cloud_dia2:
     scene bg_mono_salon
     show cloud bien feliz
 
-    p '(Hemos estado hablando de redes y la nube durante semanas, pero nunca le he preguntado a Cloud por qué eligió esta área. Parece que realmente le apasiona, y tal vez podría aprender algo más profundo de ella si simplemente le pregunto.)'
+    p '(Hemos estado hablando de redes y la nube durante un largo tiempo, pero nunca le he preguntado a Cloud por qué eligió esta área. Parece que realmente le apasiona, y tal vez podría aprender algo más profundo de ella si simplemente le pregunto.)'
 
     P 'Oye, Cloud… ¿puedo preguntarte algo?'
 
@@ -81,14 +81,17 @@ label dia_especial_explicacion:
 
     show cloud feliz
 
-    #Capítulo 8: Administración de Redes
-    #scene Sala de redes del campus con pantallas mostrando tráfico de red
-    p 'Veo que todo esto de la nube depende mucho de las redes. ¿Cómo administras una red tan grande?'
+    cloud 'Tienes alguna duda en algo mas?'
 
-    cloud 'La administración de redes en la nube implica monitorear el tráfico, asegurarse de que todos los dispositivos estén conectados correctamente y que no haya interrupciones. Existen herramientas específicas para esto, como los sistemas de monitoreo de redes, que te alertan cuando algo falla. Además, tienes que configurar firewalls y reglas de acceso para asegurarte de que solo el tráfico autorizado pase a través de la red.'
-    p '¿No es complicado manejar todo eso?'
+    menu:
+        '"¿Cómo administras una red tan grande? "':
+            cloud "La administración de redes en la nube implica monitorear el tráfico, asegurarse de que todos los dispositivos estén conectados correctamente y que no haya interrupciones. Existen herramientas específicas para esto, como los sistemas de monitoreo de redes, que te alertan cuando algo falla. Además, tienes que configurar firewalls y reglas de acceso para asegurarte de que solo el tráfico autorizado pase a través de la red."
+        '"No ninguna duda!"':
+            cloud "bueno, tu te lo pierdes"
+        '"Me gusta el azul de tu cabello"':
+            web "Gracias!, pero no te distraigas"
 
-    cloud 'Sí, lo es. Pero por eso existen herramientas de automatización y orquestación. En grandes redes, no puedes hacerlo todo manualmente. Las plataformas de administración en la nube como AWS o Azure ofrecen soluciones que te permiten automatizar gran parte de la configuración y monitoreo.'
+    web "Espero no se te olvide lo que platicamos el dia de hoy , nos vemos luego!"
 
 
     #Capítulo 10: Modelado y Simulación de Redes
