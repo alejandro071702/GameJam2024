@@ -33,3 +33,4 @@ label geoDay2:
     scene bg_mono_pasillo with circlewipe
     p "Debo admitir que su pasión por esto es genuina. Pero no estoy seguro si eso es suficiente para aguantarla durante todo el semestre."
     p "Tal vez debería pedirle ayuda con la tarea. Después de todo, es la única manera de asegurar que no repruebe... aunque eso signifique tener que escuchar sus quejas un rato más."
+    jump epilogue_geo
