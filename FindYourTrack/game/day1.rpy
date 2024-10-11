@@ -58,9 +58,9 @@ label webAndGeo1:
     p "(geoGirl. El trabajo definitivamente será más tedioso, pero al menos juntarme con ella asegura que saldrá)."
     p "(webGirl. Definitivamente será más relajado, aunque no sé si pueda ayudarme a pasar la materia tan bien como con geoGirl)."
     menu:
-        'Mappu':
+        '"Mappu"':
             jump geoChosen 
-        'Sunny':
+        '"Sunny"':
             jump webChosen
 label geoChosen:
     geo "¿Quieres ir en MI equipo? Nunca te he visto trabajar bien, voy a decirle al profesor que te consiga otra pareja."

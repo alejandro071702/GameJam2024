@@ -21,9 +21,9 @@ label geoDay2:
     p "(Por más molesta que suena, puedo ver que de verdad le importa. Casi me convence hasta a mí)."
     geo "Y claro, no cualquiera puede hacerlo. Tienes que ser meticuloso, prestar atención a los detalles, y eso es algo que tú… honestamente, no haces."
     menu:
-        "Podría intentarlo. Debe valer la pena si suena interesante aún cuando tú hablas de ello.":
+        '"Podría intentarlo. Debe valer la pena si suena interesante aún cuando tú hablas de ello."':
             geo "¿Verdad que sí? Podría hablar por horas sobre esto. Y... si de verdad estás interesado, supongo que podría tomar un poco de tiempo en ayudarte a estudiar para que estés listo para cursar esas materias."
-        "Tienes razón, mejor me enfoco en alguna otra cosa. Eso suena demasiado aburrido.":
+        '"Tienes razón, mejor me enfoco en alguna otra cosa. Eso suena demasiado aburrido."':
             geo "Mejor enfócate en tus cosas, y deja el trabajo importante a la gente que sabe hacerlo."        
     geo "Pero suficiente de esto, regresemos a porqué no pudiste hacer un simple trabajo para hoy."
     p "(Y volvemos a lo de siempre)."
